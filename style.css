@@ -1,3 +1,60 @@
-fond{
-    background-image: none;
+*{
+    margin:0;
+    padding: 0;
 }
+
+/*Debut accueil*/
+
+
+#fond {
+    background-image: url(img/paysages-forestiers_71767-127.png);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/*----------------------------------------------------*/
+
+#main_aside_accueil {
+    display: flex;
+}
+
+#main_accueil{
+    width: 60%;
+}
+
+#aside_accueil{
+    width: 40%;
+}
+
+
+#main_accueil img {
+    width: 25%;
+    padding-left: 35%;
+    padding-top: 15%;
+}
+
+/*----------------------------------------------------*/
+
+#aside_accueil div {
+    display: flex;
+  
+    padding-top: 25%;
+}
+
+
+#aside_accueil h1 {
+    background: gray;
+    font-size: 40pt;
+}
+/*----------------------------------------------------*/
+footer{
+    margin-top: auto;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+
+/*Fin accueil*/
