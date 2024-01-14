@@ -39,7 +39,6 @@
 
 #aside_accueil div {
     display: flex;
-  
     padding-top: 25%;
 }
 
@@ -48,6 +47,11 @@
     background: gray;
     font-size: 40pt;
 }
+
+#aside_accueil p {
+    background: black;
+}
+
 /*----------------------------------------------------*/
 footer{
     margin-top: auto;
