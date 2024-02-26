@@ -1,5 +1,5 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
 }
 
@@ -15,50 +15,118 @@
 }
 
 /*----------------------------------------------------*/
+header nav {
+    display: flex;
+    text-decoration: none;
+    background-color: #434343;;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 2%;
+    margin-left: 65%;
+}
+
+header ul {
+    display: flex;
+    margin-right: 12%;
+
+}
+
+header li {
+    list-style: none;
+    padding-left: 11%;
+    padding-top: 2%;
+    font-size: 15pt;
+
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+
+}
+
+header a:hover {
+    color: #8c52ff;
+}
+
+/*----------------------------------------------------*/
 
 #main_aside_accueil {
     display: flex;
 }
 
-#main_accueil{
+#main_accueil {
     width: 60%;
 }
 
-#aside_accueil{
+#aside_accueil {
     width: 40%;
 }
 
 
 #main_accueil img {
     width: 25%;
-    padding-left: 35%;
-    padding-top: 15%;
+    margin-left: 35%;
+    margin-top: 23%;
+    background-color: #434343;
 }
 
 /*----------------------------------------------------*/
 
-#aside_accueil div {
+#aside_accueil {
     display: flex;
-    padding-top: 25%;
+    margin-top: 15%;
+    margin-right: 10%;
+    text-align: center;
+    color: white;
 }
 
 
 #aside_accueil h1 {
-    background: gray;
     font-size: 40pt;
 }
 
+#aside_accueil h1 {
+    background-color: #434343;
+    opacity: 0.75;
+}
+
 #aside_accueil p {
-    background: black;
+    background-color: #434343;
+    opacity: 0.75;
 }
 
 /*----------------------------------------------------*/
-footer{
-    margin-top: auto;
+footer {
+    display: block;
     background-color: black;
-    display: flex;
-    flex-wrap: wrap;
- 
+    color: white;
+    margin-top: auto;
+}
+
+footer ul {
+    display: block;
+   
+}
+
+footer li {
+    padding: 1%;
+    padding-left: 12%;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+footer p {
+    display: block;
+   margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+footer a {
+    text-decoration: none;
 }
 
 /*Fin accueil*/
