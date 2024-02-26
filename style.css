@@ -18,7 +18,8 @@
 header nav {
     display: flex;
     text-decoration: none;
-    background-color: #434343;;
+    background-color: #434343;
+    ;
     padding-top: 1%;
     padding-bottom: 1%;
     padding-right: 2%;
@@ -106,7 +107,7 @@ footer {
 
 footer ul {
     display: block;
-   
+
 }
 
 footer li {
@@ -114,12 +115,12 @@ footer li {
     padding-left: 12%;
     display: inline-block;
     vertical-align: middle;
-    
+
 }
 
 footer p {
     display: block;
-   margin-block-start: 1em;
+    margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
@@ -130,3 +131,88 @@ footer a {
 }
 
 /*Fin accueil*/
+
+/*Debut compétence*/
+#body_competence{
+    background-color: #8c52ff;
+}
+
+
+
+/*----------------------------------------------------*/
+#main_competence {
+    background-color: #8c52ff;
+}
+
+.Languages {
+    position: relative;
+}
+
+svg {
+    width: 150px;
+    height: 150px;
+}
+
+svg circle {
+    fill: none;
+    stroke: #412678;
+    stroke-width: 10px;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 315;
+    stroke-dashoffset: 315;
+    stroke-linecap: round;
+}
+
+svg circle:nth-child(1){
+    stroke: #cecece;
+    stroke-dashoffset: 0;
+}
+
+svg circle:nth-child(2) {
+    animation: circle 2s forwards;
+}
+
+@keyframes circle {
+    to {
+        stroke-dashoffset: 157.5;
+    }
+
+}
+
+
+
+
+.premier {
+
+    position: absolute;
+    top: 48% ;
+    left:5%;
+    transform: translate(-50%,-50%);
+    font-size: 20pt;
+    font-weight: 400;
+    color: #412678;
+}
+
+.Bureautique .premier {
+
+    position: absolute;
+    top: 48% ;
+    left:5%;
+    transform: translate(-50%,-50%);
+    font-size: 20pt;
+    font-weight: 400;
+    color: #412678;
+}
+
+.Système .premier {
+
+    position: absolute;
+    top: 48% ;
+    left:5%;
+    transform: translate(-50%,-50%);
+    font-size: 20pt;
+    font-weight: 400;
+    color: #412678;
+}
+
+/*----------------------------------------------------*/
