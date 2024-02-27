@@ -46,6 +46,10 @@ header a {
 
 }
 
+header .actuelle{
+    color:black;
+}
+
 header a:hover {
     color: #8c52ff;
 }
@@ -133,10 +137,10 @@ footer a {
 /*Fin accueil*/
 
 /*Debut compétence*/
+
 #body_competence{
     background-color: #8c52ff;
 }
-
 
 
 /*----------------------------------------------------*/
@@ -166,6 +170,13 @@ footer a {
     font-size: 20pt;
     margin-bottom: 2%;
 }
+
+#main_competence p{
+    text-align: center;
+    color: white;
+    padding-right: 3%;
+    font-size: 18pt;
+ }
 
 #Languages_h3{
     background-color: #434343;
@@ -233,7 +244,57 @@ svg circle:nth-child(2) {
 #Languages .premier {    
     position: absolute;
     top: 48% ;
-    left:20%;
+    left:25%;
+    transform: translate(-50%,-50%);
+    font-size: 20pt;
+    font-weight: 400;
+    color: #412678;
+}
+
+#Languages .deuxieme {    
+    position: absolute;
+    top: 48% ;
+    left:35%;
+    transform: translate(-50%,-50%);
+    font-size: 20pt;
+    font-weight: 400;
+    color: #412678;
+}
+
+#Languages .troisieme {    
+    position: absolute;
+    top: 48% ;
+    left:45%;
+    transform: translate(-50%,-50%);
+    font-size: 20pt;
+    font-weight: 400;
+    color: #412678;
+}
+
+#Languages .quatrieme {    
+    position: absolute;
+    top: 48% ;
+    left:55.2%;
+    transform: translate(-50%,-50%);
+    font-size: 20pt;
+    font-weight: 400;
+    color: #412678;
+}
+
+#Languages .cinquieme {    
+    position: absolute;
+    top: 48% ;
+    left:65.3%;
+    transform: translate(-50%,-50%);
+    font-size: 20pt;
+    font-weight: 400;
+    color: #412678;
+}
+
+#Languages .sixieme {    
+    position: absolute;
+    top: 48% ;
+    left:75.4%;
     transform: translate(-50%,-50%);
     font-size: 20pt;
     font-weight: 400;
@@ -243,8 +304,28 @@ svg circle:nth-child(2) {
 
 #Bureautique .premier {
     position: absolute;
-    top: 83% ;
-    left:38%;
+    top: 88% ;
+    left:40%;
+    transform: translate(-50%,-50%);
+    font-size: 20pt;
+    font-weight: 400;
+    color: #412678;
+}
+
+#Bureautique .deuxieme {
+    position: absolute;
+    top: 88% ;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 20pt;
+    font-weight: 400;
+    color: #412678;
+}
+
+#Bureautique .troisieme {
+    position: absolute;
+    top: 88% ;
+    left:60.2%;
     transform: translate(-50%,-50%);
     font-size: 20pt;
     font-weight: 400;
@@ -253,12 +334,29 @@ svg circle:nth-child(2) {
 
 #Système .premier {
     position: absolute;
-    top: 119% ;
-    left:38%;
+    top: 128% ;
+    left:45%;
     transform: translate(-50%,-50%);
     font-size: 20pt;
     font-weight: 400;
     color: #412678;
+}
+
+#Système .deuxieme {
+    position: absolute;
+    top: 128% ;
+    left:55.2%;
+    transform: translate(-50%,-50%);
+    font-size: 20pt;
+    font-weight: 400;
+    color: #412678;
+}
+
+#footer_competence {
+    display: block;
+    background-color: black;
+    color: white;
+    margin-top: 2%;
 }
 
 /*----------------------------------------------------*/
