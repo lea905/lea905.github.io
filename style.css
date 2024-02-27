@@ -47,7 +47,7 @@ header a {
 }
 
 header .actuelle{
-    color:black;
+    color:#FFF552;
 }
 
 header a:hover {
@@ -210,7 +210,7 @@ svg {
     height: 150px;
 }
 
-svg circle {
+.p75 svg circle {
     fill: none;
     stroke: #412678;
     stroke-width: 10px;
@@ -218,22 +218,165 @@ svg circle {
     stroke-dasharray: 315;
     stroke-dashoffset: 315;
     stroke-linecap: round;
+    animation-name: pp75;
 }
 
-svg circle:nth-child(1){
+.p75 svg circle:nth-child(1){
     stroke: #cecece;
     stroke-dashoffset: 0;
+    animation-name: pp75;
 }
 
-svg circle:nth-child(2) {
+.p75 svg circle:nth-child(2) {
     animation: circle 2s forwards;
+    animation-name: pp75;
 }
 
-@keyframes circle {
+.p70 svg circle {
+    fill: none;
+    stroke: #412678;
+    stroke-width: 10px;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 315;
+    stroke-dashoffset: 315;
+    stroke-linecap: round;
+    animation-name: pp70;
+}
+
+.p70 svg circle:nth-child(1){
+    stroke: #cecece;
+    stroke-dashoffset: 0;
+    animation-name: pp70;
+}
+
+.p70 svg circle:nth-child(2) {
+    animation: circle 2s forwards;
+    animation-name: pp70;
+}
+
+.p50 svg circle {
+    fill: none;
+    stroke: #412678;
+    stroke-width: 10px;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 315;
+    stroke-dashoffset: 315;
+    stroke-linecap: round;
+    animation-name: pp50;
+}
+
+.p50 svg circle:nth-child(1){
+    stroke: #cecece;
+    stroke-dashoffset: 0;
+    animation-name: pp50;
+}
+
+.p50 svg circle:nth-child(2) {
+    animation: circle 2s forwards;
+    animation-name: pp50;
+}
+
+.p0 svg circle {
+    fill: none;
+    stroke: #412678;
+    stroke-width: 10px;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 315;
+    stroke-dashoffset: 315;
+    stroke-linecap: round;
+    animation-name: pp0;
+}
+
+.p0 svg circle:nth-child(1){
+    stroke: #cecece;
+    stroke-dashoffset: 0;
+    animation-name: pp0;
+}
+
+.p0 svg circle:nth-child(2) {
+    animation: circle 2s forwards;
+    animation-name: pp0;
+}
+
+.p90 svg circle {
+    fill: none;
+    stroke: #412678;
+    stroke-width: 10px;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 315;
+    stroke-dashoffset: 315;
+    stroke-linecap: round;
+    animation-name: pp90;
+}
+
+.p90 svg circle:nth-child(1){
+    stroke: #cecece;
+    stroke-dashoffset: 0;
+    animation-name: pp90;
+}
+
+.p90 svg circle:nth-child(2) {
+    animation: circle 2s forwards;
+    animation-name: pp90;
+}
+
+.p85 svg circle {
+    fill: none;
+    stroke: #412678;
+    stroke-width: 10px;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 315;
+    stroke-dashoffset: 315;
+    stroke-linecap: round;
+    animation-name: pp85;
+}
+
+.p85 svg circle:nth-child(1){
+    stroke: #cecece;
+    stroke-dashoffset: 0;
+    animation-name: pp85;
+}
+
+.p85 svg circle:nth-child(2) {
+    animation: circle 2s forwards;
+    animation-name: pp85;
+}
+
+
+@keyframes pp75 {
+    to {
+        stroke-dashoffset: 78.75;
+    }
+}
+
+@keyframes pp70 {
+    to {
+        stroke-dashoffset: 95.75;
+    }
+}
+
+@keyframes pp50 {
     to {
         stroke-dashoffset: 157.5;
     }
+}
 
+@keyframes pp0 {
+    to {
+        stroke-dashoffset: 315;
+    }
+}
+
+@keyframes pp90 {
+    to {
+        stroke-dashoffset: 31.5;
+    }
+}
+
+@keyframes pp85 {
+    to {
+        stroke-dashoffset: 47.25;
+    }
 }
 
 #Languages, #Bureautique, #Système{
