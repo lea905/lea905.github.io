@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+h1{
+    font-family: 'Shrikhand' ;
+}
+
+p{
+    font-family: 'League Gothic';
+}
+
 /*Debut accueil*/
 
 
@@ -136,17 +144,11 @@ footer a {
 
 /*Fin accueil*/
 
+
+#body_competence, #body_projet{
+    background-color: #8c52ff;
+}
 /*Debut compétence*/
-
-#body_competence{
-    background-color: #8c52ff;
-}
-
-
-/*----------------------------------------------------*/
-#main_competence {
-    background-color: #8c52ff;
-}
 
 #main_competence h1,h3{
     color: white;
@@ -386,7 +388,7 @@ svg {
 
 #Languages .premier {    
     position: absolute;
-    top: 48% ;
+    top: 50% ;
     left:25%;
     transform: translate(-50%,-50%);
     font-size: 20pt;
@@ -396,7 +398,7 @@ svg {
 
 #Languages .deuxieme {    
     position: absolute;
-    top: 48% ;
+    top: 50% ;
     left:35%;
     transform: translate(-50%,-50%);
     font-size: 20pt;
@@ -406,7 +408,7 @@ svg {
 
 #Languages .troisieme {    
     position: absolute;
-    top: 48% ;
+    top: 50% ;
     left:45%;
     transform: translate(-50%,-50%);
     font-size: 20pt;
@@ -416,7 +418,7 @@ svg {
 
 #Languages .quatrieme {    
     position: absolute;
-    top: 48% ;
+    top: 50% ;
     left:55.2%;
     transform: translate(-50%,-50%);
     font-size: 20pt;
@@ -426,7 +428,7 @@ svg {
 
 #Languages .cinquieme {    
     position: absolute;
-    top: 48% ;
+    top: 50% ;
     left:65.3%;
     transform: translate(-50%,-50%);
     font-size: 20pt;
@@ -436,7 +438,7 @@ svg {
 
 #Languages .sixieme {    
     position: absolute;
-    top: 48% ;
+    top: 50% ;
     left:75.4%;
     transform: translate(-50%,-50%);
     font-size: 20pt;
@@ -447,7 +449,7 @@ svg {
 
 #Bureautique .premier {
     position: absolute;
-    top: 88% ;
+    top: 90.5% ;
     left:40%;
     transform: translate(-50%,-50%);
     font-size: 20pt;
@@ -457,7 +459,7 @@ svg {
 
 #Bureautique .deuxieme {
     position: absolute;
-    top: 88% ;
+    top: 90.5% ;
     left:50%;
     transform: translate(-50%,-50%);
     font-size: 20pt;
@@ -467,7 +469,7 @@ svg {
 
 #Bureautique .troisieme {
     position: absolute;
-    top: 88% ;
+    top: 90.5% ;
     left:60.2%;
     transform: translate(-50%,-50%);
     font-size: 20pt;
@@ -477,7 +479,7 @@ svg {
 
 #Système .premier {
     position: absolute;
-    top: 128% ;
+    top: 131% ;
     left:45%;
     transform: translate(-50%,-50%);
     font-size: 20pt;
@@ -487,13 +489,15 @@ svg {
 
 #Système .deuxieme {
     position: absolute;
-    top: 128% ;
+    top: 131% ;
     left:55.2%;
     transform: translate(-50%,-50%);
     font-size: 20pt;
     font-weight: 400;
     color: #412678;
 }
+
+/*----------------------------------------------------*/
 
 #footer_competence {
     display: block;
@@ -502,4 +506,68 @@ svg {
     margin-top: 2%;
 }
 
-/*----------------------------------------------------*/
+/*Fin compétence*/
+
+/*Debut Projet*/
+.gallery{
+width: 900px;
+display: flex;
+overflow-x: scroll;
+}
+
+.gallery div{
+    width: 98%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+    flex: none;
+}
+
+.gallery div span{
+    border: solid 2px #434343;
+    background-color: #434343;
+    border-radius: 15px;
+}
+
+.gallery  img{
+    width: 90%;
+    margin-left: 5.4%;
+    margin-top: 5%;
+    margin-bottom: -8%;
+    filter: grayscale(100%);
+    transition: transform 0.5s;
+ 
+}
+
+.gallery::-webkit-scrollbar{
+    display: none;
+}
+
+.gallery-fleche{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10% auto;
+}
+
+#backBtn, #nextBtn{
+    width: 50%;
+    cursor: pointer;
+    margin: 40px;
+}
+
+#backBtn{
+    padding-left: 30%;
+}
+
+.gallery div img:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.gallery p{
+    text-align: center;
+    margin-top: 20%;
+}

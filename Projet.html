@@ -5,26 +5,69 @@
     <meta charset="UTF-8">
     <title>Portfolio | Léa Barnezet</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Shrikhand&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body id="body_projet">
     <header>
         <nav>
             <ul>
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="Competences.html">Compétences</a></li>
-                <li><a href="#">Projets</a></li>
+                <li><a class="actuelle" href="#">Projets</a></li>
                 <li><a href="">CV</a> </li>
                 <li><a href="Contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main id="main_projet">
-       
+        <h1>Projet</h1>
+        <div class="gallery-fleche">
+            <span><img src="img/flecheG.png" id="backBtn"></span>
+            <div class="gallery">
+                <div>
+                    <span><img src="img/paysages-forestiers_71767-127.png" alt="img1"> <p>test</p></span>
+                    <span><img src="img/paysages-forestiers_71767-127.png" alt="img1"><p>test</p></span>
+                    <span><img src="img/paysages-forestiers_71767-127.png" alt="img1"><p>test</p></span>
+                </div>
+                <div>
+                    <span><img src="img/paysages-forestiers_71767-127.png" alt="img1"><p>test</p></span>
+                    <span><img src="img/logo.png" alt="img1"><p>test</p></span>
+                    <span><img src="img/paysages-forestiers_71767-127.png" alt="img1"><p>test</p></span>
+                </div>
+
+            </div>
+            <span><img src="img/flecheD.png" id="nextBtn"></span>
+            <script>
+                let scrollContainer = document.querySelector(".gallery");
+                let backBtn = document.getElementById("backBtn")
+                let nextBtn = document.getElementById("nextBtn")
+
+                scrollContainer.addEventListener("whell", (evt) => {
+                    evt.preventDefault();
+                    scrollContainer.scrollLeft += evt.deltaY;
+                    scrollContainer.style.scrollBehavior = "auto"
+                });
+
+                nextBtn.addEventListener("click", () => {
+                    scrollContainer.style.scrollBehavior = "smooth"
+                    scrollContainer.scrollLeft += 900;
+                });
+
+                backBtn.addEventListener("click", () => {
+                    scrollContainer.style.scrollBehavior = "smooth"
+                    scrollContainer.scrollLeft -= 900;
+                });
+
+            </script>
+        </div>
+
     </main>
-    <aside id="aside_projet">
-       
-    </aside>
     <footer>
         <ul>
             <li>
