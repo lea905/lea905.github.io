@@ -3,12 +3,15 @@
     padding: 0;
 }
 
-h1{
-    font-family: 'Shrikhand' ;
+h1 {
+    font-family: 'Shrikhand';
+    font-size: 40pt;
+    color: white;
 }
 
-p{
+p {
     font-family: 'League Gothic';
+    color: white;
 }
 
 /*Debut accueil*/
@@ -54,8 +57,8 @@ header a {
 
 }
 
-header .actuelle{
-    color:#FFF552;
+header .actuelle {
+    color: #FFF552;
 }
 
 header a:hover {
@@ -94,10 +97,6 @@ header a:hover {
     color: white;
 }
 
-
-#aside_accueil h1 {
-    font-size: 40pt;
-}
 
 #aside_accueil h1 {
     background-color: #434343;
@@ -145,42 +144,44 @@ footer a {
 /*Fin accueil*/
 
 
-#body_competence, #body_projet{
+#body_competence,
+#body_projet {
     background-color: #8c52ff;
 }
+
 /*Debut compétence*/
 
-#main_competence h1,h3{
+#main_competence h1,
+h3 {
     color: white;
 
 }
 
-#main_competence h1{
+#main_competence h1 {
     text-align: center;
-    font-size: 40pt;
     margin-top: 3%;
     margin-bottom: 3%;
     margin-left: 35%;
     margin-right: 35%;
     background-color: #434343;
     opacity: 0.70;
-   
+
 }
 
-#main_competence h3{
+#main_competence h3 {
     text-align: center;
     font-size: 20pt;
     margin-bottom: 2%;
 }
 
-#main_competence p{
+#main_competence p {
     text-align: center;
     color: white;
     padding-right: 3%;
     font-size: 18pt;
- }
+}
 
-#Languages_h3{
+#Languages_h3 {
     background-color: #434343;
     opacity: 0.70;
     margin-top: 3%;
@@ -189,7 +190,7 @@ footer a {
     margin-right: 36%;
 }
 
-#Bureautique_h3{
+#Bureautique_h3 {
     background-color: #434343;
     opacity: 0.70;
     margin-top: 3%;
@@ -198,7 +199,7 @@ footer a {
     margin-right: 43%;
 }
 
-#Système_h3{
+#Système_h3 {
     background-color: #434343;
     opacity: 0.70;
     margin-top: 3%;
@@ -223,7 +224,7 @@ svg {
     animation-name: pp75;
 }
 
-.p75 svg circle:nth-child(1){
+.p75 svg circle:nth-child(1) {
     stroke: #cecece;
     stroke-dashoffset: 0;
     animation-name: pp75;
@@ -245,7 +246,7 @@ svg {
     animation-name: pp70;
 }
 
-.p70 svg circle:nth-child(1){
+.p70 svg circle:nth-child(1) {
     stroke: #cecece;
     stroke-dashoffset: 0;
     animation-name: pp70;
@@ -267,7 +268,7 @@ svg {
     animation-name: pp50;
 }
 
-.p50 svg circle:nth-child(1){
+.p50 svg circle:nth-child(1) {
     stroke: #cecece;
     stroke-dashoffset: 0;
     animation-name: pp50;
@@ -289,7 +290,7 @@ svg {
     animation-name: pp0;
 }
 
-.p0 svg circle:nth-child(1){
+.p0 svg circle:nth-child(1) {
     stroke: #cecece;
     stroke-dashoffset: 0;
     animation-name: pp0;
@@ -311,7 +312,7 @@ svg {
     animation-name: pp90;
 }
 
-.p90 svg circle:nth-child(1){
+.p90 svg circle:nth-child(1) {
     stroke: #cecece;
     stroke-dashoffset: 0;
     animation-name: pp90;
@@ -333,7 +334,7 @@ svg {
     animation-name: pp85;
 }
 
-.p85 svg circle:nth-child(1){
+.p85 svg circle:nth-child(1) {
     stroke: #cecece;
     stroke-dashoffset: 0;
     animation-name: pp85;
@@ -381,66 +382,68 @@ svg {
     }
 }
 
-#Languages, #Bureautique, #Système{
+#Languages,
+#Bureautique,
+#Système {
     display: flex;
     justify-content: center;
 }
 
-#Languages .premier {    
+#Languages .premier {
     position: absolute;
-    top: 50% ;
-    left:25%;
-    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
     font-size: 20pt;
     font-weight: 400;
     color: #412678;
 }
 
-#Languages .deuxieme {    
+#Languages .deuxieme {
     position: absolute;
-    top: 50% ;
-    left:35%;
-    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
     font-size: 20pt;
     font-weight: 400;
     color: #412678;
 }
 
-#Languages .troisieme {    
+#Languages .troisieme {
     position: absolute;
-    top: 50% ;
-    left:45%;
-    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
     font-size: 20pt;
     font-weight: 400;
     color: #412678;
 }
 
-#Languages .quatrieme {    
+#Languages .quatrieme {
     position: absolute;
-    top: 50% ;
-    left:55.2%;
-    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 55.2%;
+    transform: translate(-50%, -50%);
     font-size: 20pt;
     font-weight: 400;
     color: #412678;
 }
 
-#Languages .cinquieme {    
+#Languages .cinquieme {
     position: absolute;
-    top: 50% ;
-    left:65.3%;
-    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 65.3%;
+    transform: translate(-50%, -50%);
     font-size: 20pt;
     font-weight: 400;
     color: #412678;
 }
 
-#Languages .sixieme {    
+#Languages .sixieme {
     position: absolute;
-    top: 50% ;
-    left:75.4%;
-    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 75.4%;
+    transform: translate(-50%, -50%);
     font-size: 20pt;
     font-weight: 400;
     color: #412678;
@@ -449,9 +452,9 @@ svg {
 
 #Bureautique .premier {
     position: absolute;
-    top: 90.5% ;
-    left:40%;
-    transform: translate(-50%,-50%);
+    top: 90.5%;
+    left: 40%;
+    transform: translate(-50%, -50%);
     font-size: 20pt;
     font-weight: 400;
     color: #412678;
@@ -459,9 +462,9 @@ svg {
 
 #Bureautique .deuxieme {
     position: absolute;
-    top: 90.5% ;
-    left:50%;
-    transform: translate(-50%,-50%);
+    top: 90.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-size: 20pt;
     font-weight: 400;
     color: #412678;
@@ -469,9 +472,9 @@ svg {
 
 #Bureautique .troisieme {
     position: absolute;
-    top: 90.5% ;
-    left:60.2%;
-    transform: translate(-50%,-50%);
+    top: 90.5%;
+    left: 60.2%;
+    transform: translate(-50%, -50%);
     font-size: 20pt;
     font-weight: 400;
     color: #412678;
@@ -479,9 +482,9 @@ svg {
 
 #Système .premier {
     position: absolute;
-    top: 131% ;
-    left:45%;
-    transform: translate(-50%,-50%);
+    top: 131%;
+    left: 45%;
+    transform: translate(-50%, -50%);
     font-size: 20pt;
     font-weight: 400;
     color: #412678;
@@ -489,9 +492,9 @@ svg {
 
 #Système .deuxieme {
     position: absolute;
-    top: 131% ;
-    left:55.2%;
-    transform: translate(-50%,-50%);
+    top: 131%;
+    left: 55.2%;
+    transform: translate(-50%, -50%);
     font-size: 20pt;
     font-weight: 400;
     color: #412678;
@@ -509,65 +512,89 @@ svg {
 /*Fin compétence*/
 
 /*Debut Projet*/
-.gallery{
-width: 900px;
-display: flex;
-overflow-x: scroll;
+#body_projet {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-.gallery div{
-    width: 98%;
+.gallery {
+    width: 900px;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.gallery div {
+    width: 95%;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 20px;
-    padding: 10px;
+    padding: 2%;
     flex: none;
 }
 
-.gallery div span{
+.gallery div span {
     border: solid 2px #434343;
     background-color: #434343;
-    border-radius: 15px;
+    border-radius: 10%;
 }
 
-.gallery  img{
-    width: 90%;
-    margin-left: 5.4%;
+.gallery p {
+    text-align: center;
+    padding-top: 30%;
+    font-size: 15pt;
+    padding-bottom: 5%;
+}
+
+.gallery img {
+    width: 80%;
+    margin-left: 11%;
     margin-top: 5%;
-    margin-bottom: -8%;
+    margin-bottom: -20%;
     filter: grayscale(100%);
     transition: transform 0.5s;
- 
+    border-radius: 10%;
+
 }
 
-.gallery::-webkit-scrollbar{
+.gallery::-webkit-scrollbar {
     display: none;
 }
 
-.gallery-fleche{
+.gallery-fleche {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10% auto;
+    margin: 4% auto;
 }
 
-#backBtn, #nextBtn{
+#backBtn,
+#nextBtn {
     width: 50%;
     cursor: pointer;
     margin: 40px;
 }
 
-#backBtn{
+#backBtn {
     padding-left: 30%;
 }
 
-.gallery div img:hover{
+.gallery div img:hover {
     filter: grayscale(0);
     cursor: pointer;
     transform: scale(1.1);
 }
 
-.gallery p{
+#main_projet h1 {
     text-align: center;
-    margin-top: 20%;
+    margin-top: 4%;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: #434343;
+    opacity: 0.70;
+}
+
+.img-vitrine{
+    width: 170px;
+    height: 150px;
 }
