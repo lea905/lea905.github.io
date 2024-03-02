@@ -14,6 +14,12 @@ p {
     color: white;
 }
 
+#body_competence,
+#body_projet,
+#body_art {
+    background-color: #8c52ff;
+}
+
 /*Debut accueil*/
 
 
@@ -142,12 +148,6 @@ footer a {
 }
 
 /*Fin accueil*/
-
-
-#body_competence,
-#body_projet {
-    background-color: #8c52ff;
-}
 
 /*Debut compétence*/
 
@@ -594,7 +594,101 @@ svg {
     opacity: 0.70;
 }
 
-.img-vitrine{
+.img-vitrine {
     width: 170px;
     height: 150px;
 }
+
+/*Fin Projet*/
+
+/*Debut Projet*/
+
+#body_art {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.image {
+    display: flex;
+    animation-duration: 40s;
+    animation-name: mesImages;
+    animation-iteration-count: infinite;
+}
+
+.image img {
+    width: 100%;
+}
+
+#slideshow_text_projet{
+    display: flex;
+}
+#slideshow {
+    width: 300px;
+    overflow: hidden;
+    margin-left: 20%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-right:10% ;
+    border: solid 2px #434343;
+    
+}
+
+.text_projet{
+    width: 30%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    
+    border: solid 3px #434343;
+    background-color: #434343;
+    border-radius: 10%;
+    opacity: 0.70;
+}
+
+.text_projet p{
+    padding-top:4%;
+    padding-left: 5%;
+}
+
+@keyframes mesImages {
+
+    /*nbr image 6 donc en divise 100 par 6 = 16,66666666666667*/
+    0% {
+        transform: translateX(0);
+    }
+
+    16.66666666666667% {
+        transform: translateX(-300px);
+    }
+
+    33.33333333333334% {
+        transform: translateX(-600px);
+    }
+
+    50% {
+        transform: translateX(-900px);
+    }
+
+    66.6666666667% {
+        transform: translateX(-1200px);
+    }
+
+    83.3333333334% {
+        transform: translateX(-1500px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+#main_galery h1 {
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: #434343;
+    opacity: 0.70;
+}
+
+
