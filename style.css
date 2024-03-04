@@ -16,8 +16,33 @@ p {
 
 #body_competence,
 #body_desProjets,
-#body_projet {
+#body_projet, #body_contact {
     background-color: #8c52ff;
+}
+
+#body_desProjets {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#main_galery h1 {
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: #434343;
+    opacity: 0.70;
+}
+
+#main_galery p {
+    padding: 3%;
+    text-align: center;
+    font-size: 15pt;
+
+    background-color: #434343;
+    border-radius: 15px;
+    opacity: 0.70;
 }
 
 /*Debut accueil*/
@@ -148,6 +173,8 @@ footer a {
 }
 
 /*Fin accueil*/
+
+/*----------------------------------------------------*/
 
 /*Debut compétence*/
 
@@ -511,6 +538,8 @@ svg {
 
 /*Fin compétence*/
 
+/*----------------------------------------------------*/
+
 /*Debut Projet*/
 #body_projet {
     display: flex;
@@ -601,13 +630,9 @@ svg {
 
 /*Fin Projet*/
 
-/*Debut Galery d'art*/
+/*----------------------------------------------------*/
 
-#body_desProjets {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
+/*Debut Galery d'art*/
 
 .image_galery {
     display: flex;
@@ -620,36 +645,27 @@ svg {
     width: 100%;
 }
 
-#slideshow_text_projet{
+#slideshow_text_projet {
     display: flex;
 }
+
 #slideshow_galery {
     width: 300px;
     overflow: hidden;
     margin-left: 20%;
     margin-top: 4%;
     margin-bottom: 4%;
-    margin-right:10% ;
+    margin-right: 10%;
     border: solid 2px #434343;
-    
+
 }
 
-.text_galery{
+.text_galery {
     width: 30%;
     margin-top: 14%;
 
 }
 
-
-#main_galery p{
-    padding: 3%;
-    text-align: center;
-    font-size: 15pt;
-    
-    background-color: #434343;
-    border-radius: 15px;
-    opacity: 0.70;
-}
 
 @keyframes mesImages {
 
@@ -683,24 +699,13 @@ svg {
     }
 }
 
-#main_galery h1 {
-    text-align: center;
-    margin-top: 4%;
-    margin-left: 35%;
-    margin-right: 35%;
-    background-color: #434343;
-    opacity: 0.70;
-}
 
 /*Fin Galery d'art*/
 
+/*----------------------------------------------------*/
+
 /*Debut Quiz*/
 
-#body_desProjets {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
 
 .image_quiz {
     display: flex;
@@ -713,36 +718,27 @@ svg {
     width: 100%;
 }
 
-#slideshow_text_projet_quiz{
+#slideshow_text_projet_quiz {
     display: flex;
     margin-top: 2%;
 }
+
 #slideshow_quiz {
     width: 300px;
     overflow: hidden;
     margin-left: 20%;
     margin-top: 4%;
     margin-bottom: 4%;
-    margin-right:10% ;
+    margin-right: 10%;
     border: solid 2px #434343;
     background-color: white;
 }
 
-.text_quiz{
+.text_quiz {
     width: 30%;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
-
-#main_galery p{
-    padding: 3%;
-    text-align: center;
-    font-size: 15pt;
-    
-    background-color: #434343;
-    border-radius: 15px;
-    opacity: 0.70;
-}
 
 @keyframes mesImagesQuiz {
 
@@ -761,11 +757,188 @@ svg {
     }
 }
 
-#main_galery h1 {
-    text-align: center;
+
+/*Fin Quiz*/
+
+/*----------------------------------------------------*/
+
+/*Debut PremierSite*/
+
+.image_Psite {
+    display: flex;
+    animation-duration: 20s;
+    animation-name: mesImagesPsite;
+    animation-iteration-count: infinite;
+}
+
+.image_Psite img {
+    width: 100%;
+}
+
+#slideshow_text_projet_Psite {
+    display: flex;
+    margin-top: 2%;
+}
+
+#slideshow_Psite {
+    width: 400px;
+    overflow: hidden;
+    margin-left: 15%;
     margin-top: 4%;
+    margin-bottom: 4%;
+    margin-right: 10%;
+    border: solid 2px #434343;
+    background-color: white;
+}
+
+.text_Psite {
+    width: 30%;
+    margin-top: 5%;
+}
+
+
+@keyframes mesImagesPsite {
+
+    /*nbr image 2 donc en divise 100 par 2 = 50*/
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-400px);
+    }
+
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/*Fin PremierSite*/
+
+/*----------------------------------------------------*/
+
+/*Debut Nonogramme*/
+
+.image_Nono {
+    display: flex;
+    animation-duration: 20s;
+    animation-name: mesImagesNono;
+    animation-iteration-count: infinite;
+}
+
+.image_Nono img {
+    width: 100%;
+}
+
+#slideshow_text_projet_Nono {
+    display: flex;
+    margin-top: 2%;
+}
+
+#slideshow_Nono {
+    width: 400px;
+    overflow: hidden;
+    margin-left: 15%;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    margin-right: 10%;
+    border: solid 2px #434343;
+    background-color: white;
+}
+
+.text_Nono {
+    width: 30%;
+    margin-top: 5%;
+}
+
+
+@keyframes mesImagesNono {
+
+    /*nbr image 4 donc en divise 100 par 4 = 25*/
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-400px);
+    }
+
+    50% {
+        transform: translateX(-800px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+/*Fin Nonogramme*/
+
+/*----------------------------------------------------*/
+
+/*Debut livre*/
+
+.image_livre {
+    display: flex;
+    animation-duration: 20s;
+    animation-name: mesImageslivre;
+    animation-iteration-count: infinite;
+}
+
+.image_livre img {
+    width: 100%;
+}
+
+#slideshow_text_projet_livre {
+    display: flex;
+    margin-top: 2%;
+}
+
+#slideshow_livre {
+    width: 400px;
+    overflow: hidden;
+    margin-left: 15%;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    margin-right: 10%;
+    border: solid 2px #434343;
+    background-color: white;
+}
+
+.text_livre{
+    width: 30%;
+    margin-top: 5%;
+}
+
+#main_galery #Livre {
+        text-align: center;
+        margin-top: 4%;
+        margin-left: 10%;
+        margin-right: 10%;
+        background-color: #434343;
+        opacity: 0.70;
+}
+
+/*Fin livre*/
+
+/*----------------------------------------------------*/
+
+/*Debut Contact*/
+
+#main_contact h1 {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
     margin-left: 35%;
     margin-right: 35%;
     background-color: #434343;
     opacity: 0.70;
+
 }
+
+
+/*Fin Contact*/
+
+/*----------------------------------------------------*/
