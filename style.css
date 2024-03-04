@@ -944,6 +944,41 @@ svg {
 /*Fin livre*/
 
 /*----------------------------------------------------*/
+/*Debut Candy Crush*/
+
+.image_Candy {
+    display: flex;
+}
+
+.image_Candy img {
+    width: 100%;
+}
+
+#slideshow_text_projet_Candy {
+    display: flex;
+    margin-top: 2%;
+}
+
+#slideshow_Candy {
+    width: 400px;
+    overflow: hidden;
+    margin-left: 15%;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    margin-right: 10%;
+    border: solid 2px #434343;
+    background-color: white;
+}
+
+.text_Candy {
+    width: 30%;
+    margin-top: 7%;
+}
+
+
+/*Fin Candy Crush*/
+
+/*----------------------------------------------------*/
 
 /*Debut Contact*/
 
