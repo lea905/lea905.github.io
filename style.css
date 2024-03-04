@@ -628,6 +628,26 @@ svg {
     height: 150px;
 }
 
+#Lien_Github{
+    display: flex;
+    justify-content: center;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: -2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    border:solid 2px #434343;
+    transition: 1s;
+    font-size: 15pt;
+}
+
+#Lien_Github:hover{
+    background-color: #434343;
+}
+
 /*Fin Projet*/
 
 /*----------------------------------------------------*/
