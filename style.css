@@ -15,8 +15,8 @@ p {
 }
 
 #body_competence,
-#body_projet,
-#body_art {
+#body_desProjets,
+#body_projet {
     background-color: #8c52ff;
 }
 
@@ -601,29 +601,29 @@ svg {
 
 /*Fin Projet*/
 
-/*Debut Projet*/
+/*Debut Galery d'art*/
 
-#body_art {
+#body_desProjets {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-.image {
+.image_galery {
     display: flex;
     animation-duration: 40s;
     animation-name: mesImages;
     animation-iteration-count: infinite;
 }
 
-.image img {
+.image_galery img {
     width: 100%;
 }
 
 #slideshow_text_projet{
     display: flex;
 }
-#slideshow {
+#slideshow_galery {
     width: 300px;
     overflow: hidden;
     margin-left: 20%;
@@ -634,20 +634,21 @@ svg {
     
 }
 
-.text_projet{
+.text_galery{
     width: 30%;
-    margin-top: 7%;
-    margin-bottom: 7%;
-    
-    border: solid 3px #434343;
-    background-color: #434343;
-    border-radius: 10%;
-    opacity: 0.70;
+    margin-top: 14%;
+
 }
 
-.text_projet p{
-    padding-top:4%;
-    padding-left: 5%;
+
+#main_galery p{
+    padding: 3%;
+    text-align: center;
+    font-size: 15pt;
+    
+    background-color: #434343;
+    border-radius: 15px;
+    opacity: 0.70;
 }
 
 @keyframes mesImages {
@@ -691,4 +692,80 @@ svg {
     opacity: 0.70;
 }
 
+/*Fin Galery d'art*/
 
+/*Debut Quiz*/
+
+#body_desProjets {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.image_quiz {
+    display: flex;
+    animation-duration: 40s;
+    animation-name: mesImagesQuiz;
+    animation-iteration-count: infinite;
+}
+
+.image_quiz img {
+    width: 100%;
+}
+
+#slideshow_text_projet_quiz{
+    display: flex;
+    margin-top: 2%;
+}
+#slideshow_quiz {
+    width: 300px;
+    overflow: hidden;
+    margin-left: 20%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-right:10% ;
+    border: solid 2px #434343;
+    background-color: white;
+}
+
+.text_quiz{
+    width: 30%;
+    margin-top: 5%;
+}
+
+
+#main_galery p{
+    padding: 3%;
+    text-align: center;
+    font-size: 15pt;
+    
+    background-color: #434343;
+    border-radius: 15px;
+    opacity: 0.70;
+}
+
+@keyframes mesImagesQuiz {
+
+    /*nbr image 2 donc en divise 100 par 2 = 50*/
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-300px);
+    }
+
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+#main_galery h1 {
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: #434343;
+    opacity: 0.70;
+}
