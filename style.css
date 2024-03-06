@@ -103,15 +103,16 @@ header a:hover {
 }
 
 #main_accueil {
-    width: 60%;
+    width: 50%;
 }
 
 #aside_accueil {
-    width: 40%;
+    width: 50%;
 }
 
 
-#main_accueil img {
+
+#main_accueil #moi {
     width: 25%;
     margin-left: 35%;
     margin-top: 23%;
@@ -122,54 +123,55 @@ header a:hover {
 
 #aside_accueil {
     display: flex;
-    margin-top: 15%;
+    margin-top: 8%;
     margin-right: 10%;
     text-align: center;
     color: white;
 }
 
+#aside_accueil div{
+    width: 100%;
+}
 
 #aside_accueil h1 {
     background-color: #434343;
     opacity: 0.75;
 }
 
-#aside_accueil p {
+#aside_accueil #aPropoMoi{
     background-color: #434343;
     opacity: 0.75;
+    font-size: 18pt;
 }
 
 /*----------------------------------------------------*/
 footer {
-    display: block;
     background-color: black;
     color: white;
     margin-top: auto;
+    text-align: center;
 }
 
-footer ul {
-    display: block;
-
+footer ul{
+    padding-left: 25%;
 }
 
 footer li {
-    padding: 1%;
-    padding-left: 12%;
+    padding: 2%;
     display: inline-block;
     vertical-align: middle;
-
+   
 }
 
-footer p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
 
 footer a {
     text-decoration: none;
+}
+
+#logo_footer{
+    margin-left: -80%;
+    
+    width: 10%;
 }
 
 /*Fin accueil*/
@@ -533,9 +535,24 @@ svg {
     display: block;
     background-color: black;
     color: white;
+    text-align: center;
     margin-top: 2%;
 }
 
+#footer_competence ul{
+    padding-left: 24.2%;
+}
+
+#footer_competence li {
+    padding: 2%;
+    display: inline-block;
+    vertical-align: middle;
+   
+}
+
+#footer_competence a {
+    text-decoration: none;
+}
 /*Fin compétence*/
 
 /*----------------------------------------------------*/
