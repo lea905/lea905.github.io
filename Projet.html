@@ -12,9 +12,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Shrikhand&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <body id="body_projet">
+    <div class="loader">
+    </div>
+    <script>
+      jQuery(window).on('load', function() {
+        setTimeout(function() {
+          jQuery(".loader").fadeOut("200");
+        }, 2000); // Ajouter un délai de 500ms avant de masquer le loader
+      });
+    </script>
     <header>
         <nav>
             <ul>

@@ -173,6 +173,19 @@ footer a {
     
     width: 10%;
 }
+/*----------------------------------------------------*/
+
+.loader{
+	background: url('img/loader/loaderSpider.gif') 50% 50% no-repeat rgba(255, 0, 0,0.95);
+	cursor: wait;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+}
+    
 
 /*Fin accueil*/
 

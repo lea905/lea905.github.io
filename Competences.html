@@ -7,15 +7,22 @@
     <link rel="shortcut icon" href="img/barre_des_tâche.png" />
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Shrikhand&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Shrikhand&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <body id="body_competence">
+    <div class="loader">
+    </div>
+    <script>
+        jQuery(window).on('load', function () {
+            jQuery(".loader").fadeOut("200");
+        });
+    </script>
     <header>
         <nav>
             <ul>
@@ -133,7 +140,7 @@
                 <span class="deuxieme">70%</span>
                 <p>Linux</p>
             </div>
-           
+
         </div>
     </main>
     <footer id="footerSecond">
@@ -144,7 +151,8 @@
             <li>
                 <p>Email : Barnezet905@gmail</p>
             </li>
-            <li><a id="linkedin" href="https://www.linkedin.com/in/léa-barnezet-333aa8267/" target="_blank">Linkedin</a></li>
+            <li><a id="linkedin" href="https://www.linkedin.com/in/léa-barnezet-333aa8267/" target="_blank">Linkedin</a>
+            </li>
             <li>
                 <p>© Léa Barnezet 2023</p>
             </li>
