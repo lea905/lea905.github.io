@@ -666,7 +666,7 @@ svg {
     width: 170px;
     height: 150px;
 }
-
+/*
 #Lien_Github{
     display: flex;
     justify-content: center;
@@ -686,7 +686,7 @@ svg {
 #Lien_Github:hover{
     background-color: #434343;
 }
-
+*/
 #footer_projet {
     display: block;
     background-color: black;
