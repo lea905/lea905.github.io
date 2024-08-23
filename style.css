@@ -1060,3 +1060,62 @@ svg {
 /*Fin Contact*/
 
 /*----------------------------------------------------*/
+
+/*Debut Tic tac toe*/
+
+.image_Tic {
+    display: flex;
+    animation-duration: 20s;
+    animation-name: mesImagesTic;
+    animation-iteration-count: infinite;
+}
+
+.image_Tic img {
+    width: 100%;
+}
+
+#slideshow_text_projet_Tic {
+    display: flex;
+    margin-top: 2%;
+}
+
+#slideshow_Tic {
+    width: 200px;
+    overflow: hidden;
+    margin-left: 25%;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    margin-right: 10%;
+    border: solid 2px #434343;
+    background-color: white;
+}
+
+.text_Tic {
+    width: 30%;
+    margin-top: 10%;
+}
+
+
+@keyframes mesImagesTic {
+
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-200px);
+    }
+
+    50% {
+        transform: translateX(-400px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+/*Fin Tic tac toe*/
+
+/*----------------------------------------------------*/

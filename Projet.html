@@ -19,11 +19,9 @@
     <div class="loader">
     </div>
     <script>
-      jQuery(window).on('load', function() {
-        setTimeout(function() {
-          jQuery(".loader").fadeOut("200");
-        }, 2000); // Ajouter un délai de 500ms avant de masquer le loader
-      });
+        jQuery(window).on('load', function () {
+            jQuery(".loader").fadeOut("200");
+        });
     </script>
     <header>
         <nav>
@@ -71,6 +69,21 @@
                         <p>Candy Crush</p>
                     </span>
                 </div>
+                <div>
+                    <span><a href="TicTacToe.html" target="_blank"><img
+                                src="img/ProjetTicTacToe/T.png" alt="tictactoe"
+                                class="img-vitrine"></a>
+                        <p>Tic Tac Toe</p>
+                    </span>
+                    <span><a href="#" target="_blank"><img src="img/AVenir.avif" alt="#"
+                                class="img-vitrine"></a>
+                        <p>A venir </p>
+                    </span>
+                    <span><a href="#" target="_blank"><img src="img/AVenir.avif" alt="#"
+                                class="img-vitrine"></a>
+                        <p>A venir</p>
+                    </span>
+                </div>
 
             </div>
             <span><img src="img/flecheD.png" id="nextBtn" alt="bouton"></span>
@@ -87,12 +100,12 @@
 
                 nextBtn.addEventListener("click", () => {
                     scrollContainer.style.scrollBehavior = "smooth"
-                    scrollContainer.scrollLeft += 900;
+                    scrollContainer.scrollLeft += 785;
                 });
 
                 backBtn.addEventListener("click", () => {
                     scrollContainer.style.scrollBehavior = "smooth"
-                    scrollContainer.scrollLeft -= 900;
+                    scrollContainer.scrollLeft -= 785;
                 });
 
             </script>
