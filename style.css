@@ -16,7 +16,8 @@ p {
 
 #body_competence,
 #body_desProjets,
-#body_projet, #body_contact {
+#body_projet,
+#body_contact {
     background-color: #8c52ff;
 }
 
@@ -128,7 +129,7 @@ header a:hover {
     color: white;
 }
 
-#aside_accueil div{
+#aside_accueil div {
     width: 100%;
 }
 
@@ -137,7 +138,7 @@ header a:hover {
     opacity: 0.75;
 }
 
-#aside_accueil #aPropoMoi{
+#aside_accueil #aPropoMoi {
     background-color: #434343;
     opacity: 0.75;
     font-size: 18pt;
@@ -151,15 +152,15 @@ footer {
     text-align: center;
 }
 
-footer ul{
-    padding-left: 23%;
+footer ul {
+    padding-left: 21%;
 }
 
 footer li {
     padding: 2%;
     display: inline-block;
     vertical-align: middle;
-   
+
 }
 
 
@@ -167,24 +168,25 @@ footer a {
     text-decoration: none;
 }
 
-#logo_footer{
+#logo_footer {
     margin-left: -80%;
-    
+
     width: 10%;
 }
+
 /*----------------------------------------------------*/
 
-.loader{
-	background: url('img/loader/loaderSpider.gif') 50% 50% no-repeat rgba(255, 0, 0,0.95);
-	cursor: wait;
-	height: 100%;
-	left: 0;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	z-index: 9999;
+.loader {
+    background: url('img/loader/loaderSpider.gif') 50% 50% no-repeat rgba(255, 0, 0, 0.95);
+    cursor: wait;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
 }
-    
+
 
 /*Fin accueil*/
 
@@ -249,12 +251,16 @@ h3 {
     margin-right: 38%;
 }
 
+#Système p{
+    margin-bottom: 20%;
+}
+
 svg {
     width: 150px;
     height: 150px;
 }
 
-.p75 svg circle {
+svg circle {
     fill: none;
     stroke: #412678;
     stroke-width: 10px;
@@ -262,129 +268,102 @@ svg {
     stroke-dasharray: 315;
     stroke-dashoffset: 315;
     stroke-linecap: round;
+}
+
+svg circle:nth-child(1) {
+    stroke: #cecece;
+    stroke-dashoffset: 0;
+}
+
+svg circle:nth-child(2) {
+    animation: circle 2s forwards;
+}
+
+.p75 svg circle {
     animation-name: pp75;
 }
 
 .p75 svg circle:nth-child(1) {
-    stroke: #cecece;
-    stroke-dashoffset: 0;
     animation-name: pp75;
 }
 
 .p75 svg circle:nth-child(2) {
-    animation: circle 2s forwards;
     animation-name: pp75;
 }
 
+
 .p70 svg circle {
-    fill: none;
-    stroke: #412678;
-    stroke-width: 10px;
-    transform: translate(5px, 5px);
-    stroke-dasharray: 315;
-    stroke-dashoffset: 315;
-    stroke-linecap: round;
     animation-name: pp70;
 }
 
 .p70 svg circle:nth-child(1) {
-    stroke: #cecece;
-    stroke-dashoffset: 0;
     animation-name: pp70;
 }
 
 .p70 svg circle:nth-child(2) {
-    animation: circle 2s forwards;
     animation-name: pp70;
 }
 
 .p50 svg circle {
-    fill: none;
-    stroke: #412678;
-    stroke-width: 10px;
-    transform: translate(5px, 5px);
-    stroke-dasharray: 315;
-    stroke-dashoffset: 315;
-    stroke-linecap: round;
     animation-name: pp50;
 }
 
 .p50 svg circle:nth-child(1) {
-    stroke: #cecece;
-    stroke-dashoffset: 0;
     animation-name: pp50;
 }
 
 .p50 svg circle:nth-child(2) {
-    animation: circle 2s forwards;
     animation-name: pp50;
 }
 
 .p0 svg circle {
-    fill: none;
-    stroke: #412678;
-    stroke-width: 10px;
-    transform: translate(5px, 5px);
-    stroke-dasharray: 315;
-    stroke-dashoffset: 315;
-    stroke-linecap: round;
     animation-name: pp0;
 }
 
 .p0 svg circle:nth-child(1) {
-    stroke: #cecece;
-    stroke-dashoffset: 0;
     animation-name: pp0;
 }
 
 .p0 svg circle:nth-child(2) {
-    animation: circle 2s forwards;
     animation-name: pp0;
 }
 
 .p90 svg circle {
-    fill: none;
-    stroke: #412678;
-    stroke-width: 10px;
-    transform: translate(5px, 5px);
-    stroke-dasharray: 315;
-    stroke-dashoffset: 315;
-    stroke-linecap: round;
     animation-name: pp90;
 }
 
 .p90 svg circle:nth-child(1) {
-    stroke: #cecece;
-    stroke-dashoffset: 0;
     animation-name: pp90;
 }
 
 .p90 svg circle:nth-child(2) {
-    animation: circle 2s forwards;
     animation-name: pp90;
 }
 
 .p85 svg circle {
-    fill: none;
-    stroke: #412678;
-    stroke-width: 10px;
-    transform: translate(5px, 5px);
-    stroke-dasharray: 315;
-    stroke-dashoffset: 315;
-    stroke-linecap: round;
     animation-name: pp85;
 }
 
 .p85 svg circle:nth-child(1) {
-    stroke: #cecece;
-    stroke-dashoffset: 0;
     animation-name: pp85;
 }
 
 .p85 svg circle:nth-child(2) {
-    animation: circle 2s forwards;
     animation-name: pp85;
 }
+
+.p30 svg circle {
+    animation-name: pp30;
+}
+
+.p30 svg circle:nth-child(1) {
+    animation-name: pp30;
+}
+
+.p30 svg circle:nth-child(2) {
+    animation-name: pp30;
+}
+
 
 
 @keyframes pp75 {
@@ -420,6 +399,12 @@ svg {
 @keyframes pp85 {
     to {
         stroke-dashoffset: 47.25;
+    }
+}
+
+@keyframes pp30 {
+    to {
+        stroke-dashoffset: 220.5;
     }
 }
 
@@ -552,28 +537,7 @@ svg {
 
 /*----------------------------------------------------*/
 
-#footerSecond {
-    display: block;
-    background-color: black;
-    color: white;
-    text-align: center;
-    margin-top: 2%;
-}
 
-#footerSecond ul{
-    padding-left: 22.5%;
-}
-
-#footerSecond li {
-    padding: 2%;
-    display: inline-block;
-    vertical-align: middle;
-   
-}
-
-#footerSecond a {
-    text-decoration: none;
-}
 /*Fin compétence*/
 
 /*----------------------------------------------------*/
@@ -665,6 +629,7 @@ svg {
     width: 170px;
     height: 150px;
 }
+
 /*
 #Lien_Github{
     display: flex;
@@ -686,28 +651,6 @@ svg {
     background-color: #434343;
 }
 */
-#footer_projet {
-    display: block;
-    background-color: black;
-    color: white;
-    text-align: center;
-
-}
-
-#footer_projet ul{
-    padding-left: 22.5%;
-}
-
-#footer_projet li {
-    padding: 2%;
-    display: inline-block;
-    vertical-align: middle;
-   
-}
-
-#footer_projet a {
-    text-decoration: none;
-}
 
 
 /*Fin Projet*/
@@ -989,18 +932,18 @@ svg {
     background-color: white;
 }
 
-.text_livre{
+.text_livre {
     width: 30%;
     margin-top: 5%;
 }
 
 #main_galery #Livre {
-        text-align: center;
-        margin-top: 4%;
-        margin-left: 10%;
-        margin-right: 10%;
-        background-color: #434343;
-        opacity: 0.70;
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #434343;
+    opacity: 0.70;
 }
 
 /*Fin livre*/
