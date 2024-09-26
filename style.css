@@ -57,6 +57,7 @@ p {
 }
 
 /*----------------------------------------------------*/
+
 header nav {
     display: flex;
     text-decoration: none;
@@ -64,14 +65,12 @@ header nav {
     opacity: 0.70;
     padding-top: 1%;
     padding-bottom: 1%;
-    padding-right: 2%;
-    margin-left: 65%;
+    margin-left: 73%;
 }
 
 header ul {
     display: flex;
     margin-right: 12%;
-
 }
 
 header li {
