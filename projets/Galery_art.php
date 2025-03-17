@@ -8,9 +8,9 @@
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="Competences.html">Compétences</a></li>
-                <li><a class="actuelle" href="Projet.html">Projets</a></li>
+                <li><a href="/../index.php">Accueil</a></li>
+                <li><a href="/../Competences.php">Compétences</a></li>
+                <li><a class="actuelle" href="/../Projet.php">Projets</a></li>
                 <li><a href="cv.pdf"  target="_blank">CV</a> </li>
             </ul>
         </nav>

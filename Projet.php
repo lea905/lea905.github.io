@@ -26,37 +26,37 @@
                                 class="img-vitrine"></a>
                         <p>Galerie d'art</p>
                     </span>
-                    <span><a href="projets/Quiz.html" target="_blank"><img src="img/ProjetQuizSAE/quiz_musique.png" alt="quizz"
+                    <span><a href="projets/Quiz.php" target="_blank"><img src="img/ProjetQuizSAE/quiz_musique.png" alt="quizz"
                                 class="img-vitrine"></a>
                         <p>Quiz</p>
                     </span>
-                    <span><a href="projets/PremierSite.html" target="_blank"><img src="img/ProjetOhMyCode/premierSite_1.png"
+                    <span><a href="projets/PremierSite.php" target="_blank"><img src="img/ProjetOhMyCode/premierSite_1.png"
                                 alt="ohmycode" class="img-vitrine"></a>
                         <p>Premier Site</p>
                     </span>
                 </div>
                 <div>
-                    <span><a href="projets/Nonogramme.html" target="_blank"><img
+                    <span><a href="projets/Nonogramme.php" target="_blank"><img
                                 src="img/ProjetNonogramme/nonogramme_accueil.png" alt="nonogramme"
                                 class="img-vitrine"></a>
                         <p>Nonogramme</p>
                     </span>
-                    <span><a href="projets/EditeurLivre.html" target="_blank"><img src="img/ProjetLivre/Capture.png" alt="livre"
+                    <span><a href="projets/EditeurLivre.php" target="_blank"><img src="img/ProjetLivre/Capture.png" alt="livre"
                                 class="img-vitrine"></a>
                         <p>Éditeur de livre </p>
                     </span>
-                    <span><a href="projets/CandyCrush.html" target="_blank"><img src="img/ProjetCandyCrush/debutJeu.png" alt="Candy"
+                    <span><a href="projets/CandyCrush.php" target="_blank"><img src="img/ProjetCandyCrush/debutJeu.png" alt="Candy"
                                 class="img-vitrine"></a>
                         <p>Candy Crush</p>
                     </span>
                 </div>
                 <div>
-                    <span><a href="projets/TicTacToe.html" target="_blank"><img
+                    <span><a href="projets/TicTacToe.php" target="_blank"><img
                                 src="img/ProjetTicTacToe/T.png" alt="tictactoe"
                                 class="img-vitrine"></a>
                         <p>Tic Tac Toe</p>
                     </span>
-                    <span><a href="projets/TracksIUT.html" target="_blank"><img src="img/AVenir.avif" alt="#"
+                    <span><a href="projets/TracksIUT.php" target="_blank"><img src="img/AVenir.avif" alt="#"
                                 class="img-vitrine"></a>
                         <p>Tracks IUT </p>
                     </span>
