@@ -1,35 +1,16 @@
 <!DOCTYPE html>
-<html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Portfolio | Léa Barnezet</title>
-    <link rel="shortcut icon" href="img/barre_des_tâche.png" />
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Shrikhand&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-</head>
+<?php include 'modules/head.php' ?>
 
 <body id="body_competence">
     <div class="loader">
     </div>
-    <script>
-        jQuery(window).on('load', function () {
-            jQuery(".loader").fadeOut("200");
-        });
-    </script>
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.php">Accueil</a></li>
                 <li><a class="actuelle" href="#">Compétences</a></li>
-                <li><a href="Projet.html">Projets</a></li>
-                <li><a href="cv.pdf"  target="_blank">CV</a> </li>
+                <li><a href="Projet.php">Projets</a></li>
+                <li><a href="cv.pdf" target="_blank">CV</a> </li>
             </ul>
         </nav>
     </header>
@@ -37,12 +18,12 @@
         <h1>Compétences</h1>
         <h3 id="Languages_h3">Languages informatiques</h3>
         <div id="Languages">
-            <div class="p75">
+            <div class="p85">
                 <svg xmlns="http://www.w3.org/2000/svg">
                     <circle r="50px" cx="70px" cy="70px" />
                     <circle r="50px" cx="70px" cy="70px" />
                 </svg>
-                <span class="premier">75%</span>
+                <p>85%</p>
                 <p>HTML</p>
             </div>
             <div class="p75">
@@ -50,23 +31,23 @@
                     <circle r="50px" cx="70px" cy="70px" />
                     <circle r="50px" cx="70px" cy="70px" />
                 </svg>
-                <span class="deuxieme">75%</span>
+                <p>75%</p>
                 <p>CSS</p>
             </div>
-            <div class="p50">
+            <div class="p70">
                 <svg xmlns="http://www.w3.org/2000/svg">
                     <circle r="50px" cx="70px" cy="70px" />
                     <circle r="50px" cx="70px" cy="70px" />
                 </svg>
-                <span class="troisieme">50%</span>
+                <p>70%</p>
                 <p>JS</p>
             </div>
-            <div class="p30">
+            <div class="p75">
                 <svg xmlns="http://www.w3.org/2000/svg">
                     <circle r="50px" cx="70px" cy="70px" />
                     <circle r="50px" cx="70px" cy="70px" />
                 </svg>
-                <span class="quatrieme">30%</span>
+                <p>75%</p>
                 <p>PHP</p>
             </div>
             <div class="p70">
@@ -74,7 +55,7 @@
                     <circle r="50px" cx="70px" cy="70px" />
                     <circle r="50px" cx="70px" cy="70px" />
                 </svg>
-                <span class="cinquieme">70%</span>
+                <p>70%</p>
                 <p>Java</p>
             </div>
             <div class="p50">
@@ -82,7 +63,7 @@
                     <circle r="50px" cx="70px" cy="70px" />
                     <circle r="50px" cx="70px" cy="70px" />
                 </svg>
-                <span class="sixieme">50%</span>
+                <p>50%</p>
                 <p>C++</p>
             </div>
             <div class="p50">
@@ -90,8 +71,43 @@
                     <circle r="50px" cx="70px" cy="70px" />
                     <circle r="50px" cx="70px" cy="70px" />
                 </svg>
-                <span class="septieme">50%</span>
+                <p>50%</p>
                 <p>SQL</p>
+            </div>
+        </div>
+        <h3 id="Bureautique_h3">Framework </h3>
+        <div id="Languages">
+            <div class="p70">
+                <svg xmlns="http://www.w3.org/2000/svg">
+                    <circle r="50px" cx="70px" cy="70px" />
+                    <circle r="50px" cx="70px" cy="70px" />
+                </svg>
+                <p>70%</p>
+                <p>cakePHP</p>
+            </div>
+            <div class="p50">
+                <svg xmlns="http://www.w3.org/2000/svg">
+                    <circle r="50px" cx="70px" cy="70px" />
+                    <circle r="50px" cx="70px" cy="70px" />
+                </svg>
+                <p>50%</p>
+                <p>Flutter</p>
+            </div>
+            <div class="p30">
+                <svg xmlns="http://www.w3.org/2000/svg">
+                    <circle r="50px" cx="70px" cy="70px" />
+                    <circle r="50px" cx="70px" cy="70px" />
+                </svg>
+                <p>30%</p>
+                <p>Node.js</p>
+            </div>
+            <div class="p30">
+                <svg xmlns="http://www.w3.org/2000/svg">
+                    <circle r="50px" cx="70px" cy="70px" />
+                    <circle r="50px" cx="70px" cy="70px" />
+                </svg>
+                <p>30%</p>
+                <p>Symfony</p>
             </div>
         </div>
         <h3 id="Bureautique_h3">Bureautique</h3>
@@ -101,7 +117,7 @@
                     <circle r="50px" cx="70px" cy="70px" />
                     <circle r="50px" cx="70px" cy="70px" />
                 </svg>
-                <span class="premier">90%</span>
+                <p>90%</p>
                 <p>Word</p>
             </div>
             <div class="p90">
@@ -109,7 +125,7 @@
                     <circle r="50px" cx="70px" cy="70px" />
                     <circle r="50px" cx="70px" cy="70px" />
                 </svg>
-                <span class="deuxieme">90%</span>
+                <p>90%</p>
                 <p>Excel</p>
             </div>
             <div class="p85">
@@ -117,7 +133,7 @@
                     <circle r="50px" cx="70px" cy="70px" />
                     <circle r="50px" cx="70px" cy="70px" />
                 </svg>
-                <span class="troisieme">85%</span>
+                <p>85%</p>
                 <p>PowerPoint</p>
             </div>
         </div>
@@ -128,7 +144,7 @@
                     <circle r="50px" cx="70px" cy="70px" />
                     <circle r="50px" cx="70px" cy="70px" />
                 </svg>
-                <span class="premier">90%</span>
+                <p>90%</p>
                 <p>Windows</p>
             </div>
             <div class="p70">
@@ -136,30 +152,14 @@
                     <circle r="50px" cx="70px" cy="70px" />
                     <circle r="50px" cx="70px" cy="70px" />
                 </svg>
-                <span class="deuxieme">70%</span>
+                <p>70%</p>
                 <p>Linux</p>
             </div>
 
         </div>
     </main>
-    <footer id="footerSecond">
-        <ul>
-            <li>
-                <p>Téléphone : 07.84.46.81.68</p>
-            </li>
-            <li>
-                <p>Email : Barnezet905@gmail.com</p>
-            </li>
-            <li><a id="linkedin" href="https://www.linkedin.com/in/léa-barnezet-333aa8267/" target="_blank">Linkedin</a>
-            </li>
-            <li>
-                <p>© Léa Barnezet 2023</p>
-            </li>
-            <li>
-                <img id="logo_footer" src="img/logo.png" alt="mon logo">
-            </li>
-        </ul>
-    </footer>
+    <?php include 'modules/footer.php' ?>
+    <script src="script.js"></script>
 </body>
 
 </html>

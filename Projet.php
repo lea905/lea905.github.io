@@ -1,33 +1,15 @@
 <!DOCTYPE html>
-<html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Portfolio | Léa Barnezet</title>
-    <link rel="shortcut icon" href="img/barre_des_tâche.png" />
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Shrikhand&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-</head>
+<?php include 'modules/head.php' ?>
 
 <body id="body_projet">
     <div class="loader">
     </div>
-    <script>
-        jQuery(window).on('load', function () {
-            jQuery(".loader").fadeOut("200");
-        });
-    </script>
+
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="Competences.html">Compétences</a></li>
+                <li><a href="index.php">Accueil</a></li>
+                <li><a href="Competences.php">Compétences</a></li>
                 <li><a class="actuelle" href="#">Projets</a></li>
                 <li><a href="cv.pdf"  target="_blank">CV</a> </li>
             </ul>
@@ -39,44 +21,44 @@
             <span><img src="img/flecheG.png" id="backBtn" alt="bouton"></span>
             <div class="gallery">
                 <div>
-                    <span><a href="Galery_art.html" target="_blank"><img
+                    <span><a href="projets/Galery_art.php" target="_blank"><img
                                 src="img/ProjetGalerieArt/accueil_ordiProjet.png" alt="galerieArt"
                                 class="img-vitrine"></a>
                         <p>Galerie d'art</p>
                     </span>
-                    <span><a href="Quiz.html" target="_blank"><img src="img/ProjetQuizSAE/quiz_musique.png" alt="quizz"
+                    <span><a href="projets/Quiz.html" target="_blank"><img src="img/ProjetQuizSAE/quiz_musique.png" alt="quizz"
                                 class="img-vitrine"></a>
                         <p>Quiz</p>
                     </span>
-                    <span><a href="PremierSite.html" target="_blank"><img src="img/ProjetOhMyCode/premierSite_1.png"
+                    <span><a href="projets/PremierSite.html" target="_blank"><img src="img/ProjetOhMyCode/premierSite_1.png"
                                 alt="ohmycode" class="img-vitrine"></a>
                         <p>Premier Site</p>
                     </span>
                 </div>
                 <div>
-                    <span><a href="Nonogramme.html" target="_blank"><img
+                    <span><a href="projets/Nonogramme.html" target="_blank"><img
                                 src="img/ProjetNonogramme/nonogramme_accueil.png" alt="nonogramme"
                                 class="img-vitrine"></a>
                         <p>Nonogramme</p>
                     </span>
-                    <span><a href="EditeurLivre.html" target="_blank"><img src="img/ProjetLivre/Capture.png" alt="livre"
+                    <span><a href="projets/EditeurLivre.html" target="_blank"><img src="img/ProjetLivre/Capture.png" alt="livre"
                                 class="img-vitrine"></a>
                         <p>Éditeur de livre </p>
                     </span>
-                    <span><a href="CandyCrush.html" target="_blank"><img src="img/ProjetCandyCrush/debutJeu.png" alt="Candy"
+                    <span><a href="projets/CandyCrush.html" target="_blank"><img src="img/ProjetCandyCrush/debutJeu.png" alt="Candy"
                                 class="img-vitrine"></a>
                         <p>Candy Crush</p>
                     </span>
                 </div>
                 <div>
-                    <span><a href="TicTacToe.html" target="_blank"><img
+                    <span><a href="projets/TicTacToe.html" target="_blank"><img
                                 src="img/ProjetTicTacToe/T.png" alt="tictactoe"
                                 class="img-vitrine"></a>
                         <p>Tic Tac Toe</p>
                     </span>
-                    <span><a href="#" target="_blank"><img src="img/AVenir.avif" alt="#"
+                    <span><a href="projets/TracksIUT.html" target="_blank"><img src="img/AVenir.avif" alt="#"
                                 class="img-vitrine"></a>
-                        <p>A venir </p>
+                        <p>Tracks IUT </p>
                     </span>
                     <span><a href="#" target="_blank"><img src="img/AVenir.avif" alt="#"
                                 class="img-vitrine"></a>
@@ -112,24 +94,8 @@
         </div>
         <!-- <a id="Lien_Github" href="https://github.com/lea905/Projet" target="_blank"><p>Github</p></a>-->
     </main>
-    <footer>
-        <ul>
-            <li>
-                <p>Téléphone : 07.84.46.81.68</p>
-            </li>
-            <li>
-                <p>Email : Barnezet905@gmail.com</p>
-            </li>
-            <li><a id="linkedin" href="https://www.linkedin.com/in/léa-barnezet-333aa8267/" target="_blank">Linkedin</a>
-            </li>
-            <li>
-                <p>© Léa Barnezet 2023</p>
-            </li>
-            <li>
-                <img id="logo_footer" src="img/logo.png" alt="mon logo">
-            </li>
-        </ul>
-    </footer>
+    <?php include 'modules/footer.php' ?>
+    <script src="script.js"></script>
 </body>
 
 </html>

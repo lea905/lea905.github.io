@@ -46,12 +46,16 @@ p {
     opacity: 0.70;
 }
 
+/*Ordi portable*/
+
+
 /*Debut accueil*/
 
 
 #fond {
     background-image: url(img/paysages-forestiers_71767-127.png);
     background-size: cover;
+    background-repeat: no-repeat;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -177,7 +181,7 @@ footer a {
 /*----------------------------------------------------*/
 
 .loader {
-    background: url('img/loader/loaderSpider.gif') 50% 50% no-repeat rgba(255, 0, 0, 0.95);
+    background: url('img/loader/loaderSpider.gif') 50% 50% no-repeat ;
     cursor: wait;
     height: 100%;
     left: 0;
@@ -251,7 +255,7 @@ h3 {
     margin-right: 38%;
 }
 
-#Système p{
+#Système p {
     margin-bottom: 20%;
 }
 
@@ -413,126 +417,6 @@ svg circle:nth-child(2) {
 #Système {
     display: flex;
     justify-content: center;
-}
-
-#Languages .premier {
-    position: absolute;
-    top: 50%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-    font-size: 20pt;
-    font-weight: 400;
-    color: #412678;
-}
-
-#Languages .deuxieme {
-    position: absolute;
-    top: 50%;
-    left: 30%;
-    transform: translate(-50%, -50%);
-    font-size: 20pt;
-    font-weight: 400;
-    color: #412678;
-}
-
-#Languages .troisieme {
-    position: absolute;
-    top: 50%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-    font-size: 20pt;
-    font-weight: 400;
-    color: #412678;
-}
-
-#Languages .quatrieme {
-    position: absolute;
-    top: 50%;
-    left: 50.2%;
-    transform: translate(-50%, -50%);
-    font-size: 20pt;
-    font-weight: 400;
-    color: #412678;
-}
-
-#Languages .cinquieme {
-    position: absolute;
-    top: 50%;
-    left: 60.3%;
-    transform: translate(-50%, -50%);
-    font-size: 20pt;
-    font-weight: 400;
-    color: #412678;
-}
-
-#Languages .sixieme {
-    position: absolute;
-    top: 50%;
-    left: 70.4%;
-    transform: translate(-50%, -50%);
-    font-size: 20pt;
-    font-weight: 400;
-    color: #412678;
-}
-
-#Languages .septieme {
-    position: absolute;
-    top: 50%;
-    left: 80.4%;
-    transform: translate(-50%, -50%);
-    font-size: 20pt;
-    font-weight: 400;
-    color: #412678;
-}
-
-#Bureautique .premier {
-    position: absolute;
-    top: 90.5%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-    font-size: 20pt;
-    font-weight: 400;
-    color: #412678;
-}
-
-#Bureautique .deuxieme {
-    position: absolute;
-    top: 90.5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 20pt;
-    font-weight: 400;
-    color: #412678;
-}
-
-#Bureautique .troisieme {
-    position: absolute;
-    top: 90.5%;
-    left: 60.2%;
-    transform: translate(-50%, -50%);
-    font-size: 20pt;
-    font-weight: 400;
-    color: #412678;
-}
-
-#Système .premier {
-    position: absolute;
-    top: 131%;
-    left: 45%;
-    transform: translate(-50%, -50%);
-    font-size: 20pt;
-    font-weight: 400;
-    color: #412678;
-}
-
-#Système .deuxieme {
-    position: absolute;
-    top: 131%;
-    left: 55.2%;
-    transform: translate(-50%, -50%);
-    font-size: 20pt;
-    font-weight: 400;
-    color: #412678;
 }
 
 /*----------------------------------------------------*/
