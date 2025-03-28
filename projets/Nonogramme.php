@@ -10,7 +10,7 @@
                 <li><a href="/../index.php">Accueil</a></li>
                 <li><a href="/../Competences.php">Compétences</a></li>
                 <li><a class="actuelle" href="/../Projet.php">Projets</a></li>
-                <li><a href="cv.pdf"  target="_blank">CV</a> </li>
+                <li><a href="/cv_FR.pdf"  target="_blank">CV</a> </li>
                </ul>
         </nav>
     </header>

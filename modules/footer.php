@@ -1,8 +1,6 @@
 <footer>
         <ul>
-            <li>
-                <p>Téléphone : 07.84.46.81.68</p>
-            </li>
+            
             <li>
                 <p>Email : Barnezet905@gmail.com</p>
             </li>
