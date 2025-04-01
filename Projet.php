@@ -56,7 +56,7 @@
                                 class="img-vitrine"></a>
                         <p>Tic Tac Toe</p>
                     </span>
-                    <span><a href="projets/TracksIUT.php" target="_blank"><img src="img/AVenir.avif" alt="#"
+                    <span><a href="projets/TracksIUT.php" target="_blank"><img src="img/ProjetTracksIUT/logo.png" alt="Tracks"
                                 class="img-vitrine"></a>
                         <p>Tracks IUT </p>
                     </span>

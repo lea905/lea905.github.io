@@ -1,6 +1,5 @@
 <footer>
         <ul>
-            
             <li>
                 <p>Email : Barnezet905@gmail.com</p>
             </li>
@@ -10,7 +9,7 @@
                 <p>© Léa Barnezet 2023</p>
             </li>
             <li>
-                <img id="logo_footer" src="img/logo.png" alt="mon logo">
+                <img id="logo_footer" src="../img/logo.png" alt="mon logo">
             </li>
         </ul>
     </footer>

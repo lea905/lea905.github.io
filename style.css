@@ -156,6 +156,7 @@ footer {
     color: white;
     margin-top: auto;
     text-align: center;
+    height: 70px;
 }
 
 footer ul {
@@ -163,7 +164,8 @@ footer ul {
 }
 
 footer li {
-    padding: 2%;
+    padding-top: 1%;
+    padding-left: 2%;
     display: inline-block;
     vertical-align: middle;
 
@@ -946,4 +948,30 @@ svg circle:nth-child(2) {
 
 /*Fin Tic tac toe*/
 
+/*----------------------------------------------------*/
+/*Debut TracksIUT*/
+
+.image_Tracks {
+    display: flex;
+}
+
+.image_Tracks img {
+    border-radius: 2%;
+    width: 75%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.text_Tracks {
+    margin-top: 7%;
+    padding-right: 10%;
+    width: 70%;
+}
+
+#image_text_projet_Tracks {
+    display: flex;
+}
+
+
+/*Fin TracksIUT*/
 /*----------------------------------------------------*/
