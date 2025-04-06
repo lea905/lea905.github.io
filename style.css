@@ -1,20 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Shrikhand&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shrikhand&display=swap');
 * {
     margin: 0;
     padding: 0;
 }
 
 h1 {
-    font-family: 'Shrikhand';
+    font-family: 'Shrikhand', serif;
     font-size: 40pt;
     color: white;
 }
 
 p {
-    font-family: 'League Gothic';
+    font-family: 'League Gothic', serif;
     color: white;
 }
+
 
 #body_competence,
 #body_desProjets,
@@ -48,9 +48,6 @@ p {
     opacity: 0.70;
 }
 
-/*Ordi portable*/
-
-
 /*Debut accueil*/
 
 
@@ -65,42 +62,82 @@ p {
 
 /*----------------------------------------------------*/
 
+
+header {
+    font-family: 'Shrikhand', serif;
+    color: white;
+    background-color: #434343;
+    padding: 1rem 0;
+}
+
+header .menu-toggle {
+    display: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    background-color: transparent;
+}
+
 header nav {
     display: flex;
-    text-decoration: none;
-    background-color: #434343;
-    opacity: 0.70;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    margin-left: 73%;
+    justify-content: center;
 }
 
 header ul {
     display: flex;
-    margin-right: 12%;
+    padding: 0;
+    margin: 0;
 }
 
 header li {
     list-style: none;
-    padding-left: 11%;
-    padding-top: 2%;
-    font-size: 15pt;
-
+    margin-left: 2rem;
 }
 
 header a {
     text-decoration: none;
     color: white;
-
-}
-
-header .actuelle {
-    color: #FFF552;
+    font-size: 16pt;
+    padding: 10px;
+    transition: color 0.3s, transform 0.3s;
 }
 
 header a:hover {
     color: #8c52ff;
+    transform: scale(1.1);
 }
+
+.actuelle {
+    color: #FFF552;
+}
+
+/* Menu Hamburger sur mobile */
+@media screen and (max-width: 768px) {
+    header nav {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .menu-toggle {
+        display: block;
+    }
+
+    header ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header li {
+        margin: 10px 0;
+    }
+
+    header nav.active {
+        display: flex;
+    }
+}
+
 
 /*----------------------------------------------------*/
 
@@ -142,13 +179,18 @@ header a:hover {
 #aside_accueil h1 {
     background-color: #434343;
     opacity: 0.75;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 #aside_accueil #aPropoMoi {
     background-color: #434343;
     opacity: 0.75;
     font-size: 18pt;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
+
 
 /*----------------------------------------------------*/
 footer {
@@ -210,10 +252,7 @@ h3 {
 
 #main_competence h1 {
     text-align: center;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    margin-left: 35%;
-    margin-right: 35%;
+    margin: 3% 35%;
     background-color: #434343;
     opacity: 0.70;
 
@@ -235,28 +274,19 @@ h3 {
 #Languages_h3 {
     background-color: #434343;
     opacity: 0.70;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    margin-left: 36%;
-    margin-right: 36%;
+    margin: 3% 36%;
 }
 
 #Bureautique_h3 {
     background-color: #434343;
     opacity: 0.70;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    margin-left: 43%;
-    margin-right: 43%;
+    margin: 3% 43%;
 }
 
 #Système_h3 {
     background-color: #434343;
     opacity: 0.70;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    margin-left: 38%;
-    margin-right: 38%;
+    margin: 3% 38%;
 }
 
 #Système p {
@@ -431,547 +461,107 @@ svg circle:nth-child(2) {
 /*----------------------------------------------------*/
 
 /*Debut Projet*/
-#body_projet {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
 
-.gallery {
-    width: 900px;
-    display: flex;
-    overflow-x: scroll;
-}
-
-.gallery div {
-    width: 95%;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 20px;
-    padding: 2%;
-    flex: none;
-}
-
-.gallery div span {
-    border: solid 2px #434343;
-    background-color: #434343;
-    border-radius: 10%;
-}
-
-.gallery p {
-    text-align: center;
-    padding-top: 30%;
-    font-size: 15pt;
-    padding-bottom: 5%;
-}
-
-.gallery img {
-    width: 80%;
-    margin-left: 11%;
-    margin-top: 5%;
-    margin-bottom: -20%;
-    filter: grayscale(100%);
-    transition: transform 0.5s;
-    border-radius: 10%;
-
-}
-
-.gallery::-webkit-scrollbar {
-    display: none;
-}
-
-.gallery-fleche {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 4% auto;
-}
-
-#backBtn,
-#nextBtn {
-    width: 50%;
-    cursor: pointer;
-    margin: 40px;
-}
-
-#backBtn {
-    padding-left: 30%;
-}
-
-.gallery div img:hover {
-    filter: grayscale(0);
-    cursor: pointer;
-    transform: scale(1.1);
-}
 
 #main_projet h1 {
     text-align: center;
-    margin-top: 4%;
-    margin-left: 35%;
-    margin-right: 35%;
+    margin: 4% 35% 5%;
     background-color: #434343;
     opacity: 0.70;
 }
 
-.img-vitrine {
-    width: 170px;
-    height: 150px;
-}
-
-/*
-#Lien_Github{
+/* Style pour l'accordéon */
+.gallery {
+    width: 100%;
     display: flex;
-    justify-content: center;
-    margin-left: 45%;
-    margin-right: 45%;
-    margin-top: -3%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    color: white;
-    text-decoration: none;
-    border-radius: 15px;
-    border:solid 2px #434343;
-    transition: 1s;
-    font-size: 15pt;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center; /* Centrer horizontalement */
+    justify-content: center; /* Centrer verticalement */
 }
 
-#Lien_Github:hover{
+/* Limiter la largeur des projets et centrer */
+.projet {
+    width: 80%; /* Limiter la largeur à 80% de la page */
+    max-width: 1000px; /* Largeur maximale à 1000px */
+    margin: 10px 0;
+    text-align: center; /* Centrer le texte sous l'image */
+}
+
+/* Style pour l'accordéon */
+.accordion {
     background-color: #434343;
+    color: white;
+    padding: 15px;
+    width: 80%; /* Limiter la largeur à 80% de la page */
+    max-width: 1000px; /* Largeur maximale à 1000px */
+    text-align: left;
+    border: none;
+    outline: none;
+    font-size: 16pt;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* Centrer horizontalement */
 }
-*/
 
+.accordion:hover {
+    color: #FFF552;
+}
+
+/* Cacher les panneaux par défaut */
+.panel {
+    display: none;
+    padding: 10px;
+    background-color: #f4f4f4;
+    color: #434343;
+    font-size: 14pt;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Afficher le panneau lorsque la classe show est ajoutée */
+.panel.show {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Style pour l'image réduite */
+.panel img {
+    width: 800px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Style pour le texte */
+.panel p {
+    font-size: 14pt;
+    color: #434343;
+    margin: 0;
+}
+
+/* Ajouter une bordure autour des images pour une meilleure présentation */
+.panel img {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour l'image dans les projets */
+.img-vitrine {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+}
 
 /*Fin Projet*/
 
 /*----------------------------------------------------*/
 
-/*Debut Galery d'art*/
 
-.image_galery {
-    display: flex;
-    animation-duration: 40s;
-    animation-name: mesImages;
-    animation-iteration-count: infinite;
-}
+/*!*----------------------------------------------------*!*/
 
-.image_galery img {
-    width: 100%;
-}
-
-#slideshow_text_projet {
-    display: flex;
-}
-
-#slideshow_galery {
-    width: 300px;
-    overflow: hidden;
-    margin-left: 20%;
-    margin-top: 4%;
-    margin-bottom: 4%;
-    margin-right: 10%;
-    border: solid 2px #434343;
-
-}
-
-.text_galery {
-    width: 30%;
-    margin-top: 14%;
-
-}
-
-
-@keyframes mesImages {
-
-    /*nbr image 6 donc en divise 100 par 6 = 16,66666666666667*/
-    0% {
-        transform: translateX(0);
-    }
-
-    16.66666666666667% {
-        transform: translateX(-300px);
-    }
-
-    33.33333333333334% {
-        transform: translateX(-600px);
-    }
-
-    50% {
-        transform: translateX(-900px);
-    }
-
-    66.6666666667% {
-        transform: translateX(-1200px);
-    }
-
-    83.3333333334% {
-        transform: translateX(-1500px);
-    }
-
-    100% {
-        transform: translateX(0);
-    }
-}
-
-
-/*Fin Galery d'art*/
-
-/*----------------------------------------------------*/
-
-/*Debut Quiz*/
-
-
-.image_quiz {
-    display: flex;
-    animation-duration: 40s;
-    animation-name: mesImagesQuiz;
-    animation-iteration-count: infinite;
-}
-
-.image_quiz img {
-    width: 100%;
-}
-
-#slideshow_text_projet_quiz {
-    display: flex;
-    margin-top: 2%;
-}
-
-#slideshow_quiz {
-    width: 300px;
-    overflow: hidden;
-    margin-left: 20%;
-    margin-top: 4%;
-    margin-bottom: 4%;
-    margin-right: 10%;
-    border: solid 2px #434343;
-    background-color: white;
-}
-
-.text_quiz {
-    width: 30%;
-    margin-top: 2%;
-}
-
-
-@keyframes mesImagesQuiz {
-
-    /*nbr image 2 donc en divise 100 par 2 = 50*/
-    0% {
-        transform: translateX(0);
-    }
-
-    50% {
-        transform: translateX(-300px);
-    }
-
-
-    100% {
-        transform: translateX(0);
-    }
-}
-
-
-/*Fin Quiz*/
-
-/*----------------------------------------------------*/
-
-/*Debut PremierSite*/
-
-.image_Psite {
-    display: flex;
-    animation-duration: 20s;
-    animation-name: mesImagesPsite;
-    animation-iteration-count: infinite;
-}
-
-.image_Psite img {
-    width: 100%;
-}
-
-#slideshow_text_projet_Psite {
-    display: flex;
-    margin-top: 2%;
-}
-
-#slideshow_Psite {
-    width: 400px;
-    overflow: hidden;
-    margin-left: 15%;
-    margin-top: 4%;
-    margin-bottom: 4%;
-    margin-right: 10%;
-    border: solid 2px #434343;
-    background-color: white;
-}
-
-.text_Psite {
-    width: 30%;
-    margin-top: 5%;
-}
-
-
-@keyframes mesImagesPsite {
-
-    /*nbr image 2 donc en divise 100 par 2 = 50*/
-    0% {
-        transform: translateX(0);
-    }
-
-    50% {
-        transform: translateX(-400px);
-    }
-
-
-    100% {
-        transform: translateX(0);
-    }
-}
-
-/*Fin PremierSite*/
-
-/*----------------------------------------------------*/
-
-/*Debut Nonogramme*/
-
-.image_Nono {
-    display: flex;
-    animation-duration: 20s;
-    animation-name: mesImagesNono;
-    animation-iteration-count: infinite;
-}
-
-.image_Nono img {
-    width: 100%;
-}
-
-#slideshow_text_projet_Nono {
-    display: flex;
-    margin-top: 2%;
-}
-
-#slideshow_Nono {
-    width: 400px;
-    overflow: hidden;
-    margin-left: 15%;
-    margin-top: 3%;
-    margin-bottom: 4%;
-    margin-right: 10%;
-    border: solid 2px #434343;
-    background-color: white;
-}
-
-.text_Nono {
-    width: 30%;
-    margin-top: 5%;
-}
-
-
-@keyframes mesImagesNono {
-
-    /*nbr image 4 donc en divise 100 par 4 = 25*/
-    0% {
-        transform: translateX(0);
-    }
-
-    25% {
-        transform: translateX(-400px);
-    }
-
-    50% {
-        transform: translateX(-800px);
-    }
-
-    100% {
-        transform: translateX(0);
-    }
-}
-
-
-/*Fin Nonogramme*/
-
-/*----------------------------------------------------*/
-
-/*Debut livre*/
-
-.image_livre {
-    display: flex;
-    animation-duration: 20s;
-    animation-name: mesImageslivre;
-    animation-iteration-count: infinite;
-}
-
-.image_livre img {
-    width: 100%;
-}
-
-#slideshow_text_projet_livre {
-    display: flex;
-    margin-top: 2%;
-}
-
-#slideshow_livre {
-    width: 400px;
-    overflow: hidden;
-    margin-left: 15%;
-    margin-top: 3%;
-    margin-bottom: 4%;
-    margin-right: 10%;
-    border: solid 2px #434343;
-    background-color: white;
-}
-
-.text_livre {
-    width: 30%;
-    margin-top: 5%;
-}
-
-#main_galery #Livre {
-    text-align: center;
-    margin-top: 4%;
-    margin-left: 10%;
-    margin-right: 10%;
-    background-color: #434343;
-    opacity: 0.70;
-}
-
-/*Fin livre*/
-
-/*----------------------------------------------------*/
-/*Debut Candy Crush*/
-
-.image_Candy {
-    display: flex;
-}
-
-.image_Candy img {
-    width: 100%;
-}
-
-#slideshow_text_projet_Candy {
-    display: flex;
-    margin-top: 2%;
-}
-
-#slideshow_Candy {
-    width: 400px;
-    overflow: hidden;
-    margin-left: 15%;
-    margin-top: 3%;
-    margin-bottom: 4%;
-    margin-right: 10%;
-    border: solid 2px #434343;
-    background-color: white;
-}
-
-.text_Candy {
-    width: 30%;
-    margin-top: 7%;
-}
-
-
-/*Fin Candy Crush*/
-
-/*----------------------------------------------------*/
-
-/*Debut Contact*/
-
-#main_contact h1 {
-    text-align: center;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    margin-left: 35%;
-    margin-right: 35%;
-    background-color: #434343;
-    opacity: 0.70;
-
-}
-
-
-/*Fin Contact*/
-
-/*----------------------------------------------------*/
-
-/*Debut Tic tac toe*/
-
-.image_Tic {
-    display: flex;
-    animation-duration: 20s;
-    animation-name: mesImagesTic;
-    animation-iteration-count: infinite;
-}
-
-.image_Tic img {
-    width: 100%;
-}
-
-#slideshow_text_projet_Tic {
-    display: flex;
-    margin-top: 2%;
-}
-
-#slideshow_Tic {
-    width: 200px;
-    overflow: hidden;
-    margin-left: 25%;
-    margin-top: 3%;
-    margin-bottom: 4%;
-    margin-right: 10%;
-    border: solid 2px #434343;
-    background-color: white;
-}
-
-.text_Tic {
-    width: 30%;
-    margin-top: 10%;
-}
-
-
-@keyframes mesImagesTic {
-
-    0% {
-        transform: translateX(0);
-    }
-
-    25% {
-        transform: translateX(-200px);
-    }
-
-    50% {
-        transform: translateX(-400px);
-    }
-
-    100% {
-        transform: translateX(0);
-    }
-}
-
-
-/*Fin Tic tac toe*/
-
-/*----------------------------------------------------*/
-/*Debut TracksIUT*/
-
-.image_Tracks {
-    display: flex;
-}
-
-.image_Tracks img {
-    border-radius: 2%;
-    width: 75%;
-    margin-left: 15%;
-    margin-top: 5%;
-}
-
-.text_Tracks {
-    margin-top: 7%;
-    padding-right: 10%;
-    width: 70%;
-}
-
-#image_text_projet_Tracks {
-    display: flex;
-}
-
-
-/*Fin TracksIUT*/
-/*----------------------------------------------------*/
