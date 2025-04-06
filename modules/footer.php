@@ -6,7 +6,7 @@
             <li><a id="linkedin" href="https://www.linkedin.com/in/léa-barnezet-333aa8267/" target="_blank">Linkedin</a>
             </li>
             <li>
-                <p>© Léa Barnezet 2023</p>
+                <p>©2023-2025 Léa Barnezet</p>
             </li>
             <li>
                 <img id="logo_footer" src="../img/logo.png" alt="mon logo">

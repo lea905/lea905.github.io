@@ -136,17 +136,34 @@
                 </p>
             </div>
         </div>
+<!--        <div class="projet">-->
+<!--            <button class="accordion">Blog sur spider-man</button>-->
+<!--            <div class="panel">-->
+<!--                <a> <img src="img/AVenir.avif" alt="#" class="img-vitrine">-->
+<!--                </a>-->
+<!--                <p> J'ai réalisé ce projet dans le cadre de mon cours de programmation web ou j'ai appris à utiliser le-->
+<!--                    langage PHP.-->
+<!--                    J'ai mis en place différente fonctionnalité telles que<br>-->
+<!--                    - création de compte<br>-->
+<!--                    - Se connecter<br>-->
+<!--                    - Voir dernier article ajouter.</p>-->
+<!--            </div>-->
+<!--        </div>-->
         <div class="projet">
-            <button class="accordion">Blog sur spider-man</button>
+            <button class="accordion">Recette de cuisine</button>
             <div class="panel">
-                <a> <img src="img/AVenir.avif" alt="#" class="img-vitrine">
+                <a> <img src="img/ProjetRecipies/accueil.png" alt="#" class="img-vitrine">
                 </a>
-                <p> J'ai réalisé ce projet dans le cadre de mon cours de programmation web ou j'ai appris à utiliser le
-                    langage PHP.
-                    J'ai mis en place différente fonctionnalité telles que<br>
-                    - création de compte<br>
-                    - Se connecter<br>
-                    - Voir dernier article ajouter.</p>
+                <p>
+                    L’objectif de ce projet de développer une plateforme web permettant d'ajouter, consulter et utiliser des recettes de cuisine, avec une fonctionnalité générant automatiquement une liste de courses personnalisée.
+                    <br>
+                    Technologies utilisées :<br>
+                    cakePhp
+                    <br>
+                    Mysql
+                    <br>
+                    J'ai mené à bien ce projet avec une autre personne et il a durée deux mois.
+                </p>
             </div>
         </div>
 
