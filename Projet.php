@@ -21,10 +21,10 @@
     <h1>Projets</h1>
     <div class="gallery">
         <div class="projet">
-                <button class="accordion">
-                    <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
-                    Galerie d'art
-                </button>
+            <button class="accordion">
+                <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
+                Galerie d'art
+            </button>
             <div class="panel">
                 <a>
                     <img src="img/ProjetGalerieArt/accueil_ordiProjet.png" alt="galerieArt" class="img-vitrine">
@@ -160,22 +160,22 @@
                 </p>
             </div>
         </div>
-                <div class="projet">
-                    <button class="accordion">
-                        <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
-                        Blog sur spider-man
-                    </button>
-                    <div class="panel">
-                        <a> <img src="img/ProjetBlogSpider/accueil.png" alt="#" class="img-vitrine">
-                        </a>
-                        <p> J'ai réalisé ce projet dans le cadre de mon cours de programmation web ou j'ai appris à utiliser le
-                            langage PHP.
-                            J'ai mis en place différente fonctionnalité telles que<br>
-                            - création de compte<br>
-                            - Se connecter<br>
-                            - Voir dernier article ajouter.</p>
-                    </div>
-                </div>
+        <div class="projet">
+            <button class="accordion">
+                <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
+                Blog sur spider-man
+            </button>
+            <div class="panel">
+                <a> <img src="img/ProjetBlogSpider/accueil.png" alt="#" class="img-vitrine">
+                </a>
+                <p> J'ai réalisé ce projet dans le cadre de mon cours de programmation web ou j'ai appris à utiliser le
+                    langage PHP.
+                    J'ai mis en place différente fonctionnalité telles que<br>
+                    - création de compte<br>
+                    - Se connecter<br>
+                    - Voir dernier article ajouter.</p>
+            </div>
+        </div>
         <div class="projet">
             <button class="accordion">
                 <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
@@ -195,6 +195,29 @@
                     Mysql
                     <br>
                     J'ai mené à bien ce projet avec une autre personne et il a durée deux mois.
+                </p>
+            </div>
+        </div>
+
+        <div class="projet">
+            <button class="accordion">
+                <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
+                Liste de Restaurant
+            </button>
+            <div class="panel">
+                <a> <img src="img/ProjetRestaurant/list.jpg" alt="#" class="img-vitrine">
+                </a>
+                <p>
+                    L’objectif de ce projet et de réaliser une application pour Téléphone qui permet
+                    d’informer l’utilisateur avec des données mises à disposition par les
+                    pouvoirs public sous la forme de données ouvertes (open data).
+                    Pour ma part, j'ai choisi une API qui regroupe les restaurants en France
+                    et Outre-Mer.
+                    <br>
+                    Technologies utilisées :<br>
+                    Java (Android Studio)
+                    <br>
+                    J'ai mené à bien ce projet seul et il a durée un mois.
                 </p>
             </div>
         </div>

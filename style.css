@@ -52,7 +52,7 @@ p {
 
 
 #fond {
-    background-image: url(img/paysages-forestiers_71767-127.png);
+    background-image: url(img/pexels-jakkel-418831.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -178,17 +178,18 @@ header a:hover {
 
 #aside_accueil h1 {
     background-color: #434343;
-    opacity: 0.75;
+    opacity: 0.90;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 #aside_accueil #aPropoMoi {
     background-color: #434343;
-    opacity: 0.75;
+    opacity: 0.90;
     font-size: 18pt;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    padding-bottom: 2%;
 }
 
 
