@@ -506,6 +506,9 @@ svg circle:nth-child(2) {
     display: block;
     margin-left: auto;
     margin-right: auto; /* Centrer horizontalement */
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .accordion:hover {
@@ -534,14 +537,14 @@ svg circle:nth-child(2) {
 
 /* Style pour l'image réduite */
 .panel img {
-    width: 800px;
+    width: 80%;
     height: auto;
     border-radius: 10px;
 }
 
 /* Style pour le texte */
 .panel p {
-    font-size: 14pt;
+    font-size: 16pt;
     color: #434343;
     margin: 0;
 }
@@ -556,6 +559,17 @@ svg circle:nth-child(2) {
     width: 100%;
     max-width: 100%;
     border-radius: 10px;
+}
+
+.arrow-icon {
+    width: 40px;
+    height: 25px;
+    transition: transform 0.3s ease;
+    margin-left: 10px;
+}
+
+.accordion.active .arrow-icon {
+    transform: rotate(90deg);
 }
 
 /*Fin Projet*/

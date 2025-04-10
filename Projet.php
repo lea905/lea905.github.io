@@ -21,7 +21,10 @@
     <h1>Projets</h1>
     <div class="gallery">
         <div class="projet">
-            <button class="accordion">Galerie d'art</button>
+                <button class="accordion">
+                    <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
+                    Galerie d'art
+                </button>
             <div class="panel">
                 <a>
                     <img src="img/ProjetGalerieArt/accueil_ordiProjet.png" alt="galerieArt" class="img-vitrine">
@@ -36,7 +39,10 @@
             </div>
         </div>
         <div class="projet">
-            <button class="accordion">Quiz</button>
+            <button class="accordion">
+                <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
+                Quiz
+            </button>
             <div class="panel">
                 <a>
                     <img src="img/ProjetQuizSAE/quiz_musique.png" alt="quizz" class="img-vitrine">
@@ -55,7 +61,10 @@
             </div>
         </div>
         <div class="projet">
-            <button class="accordion">Premier Site</button>
+            <button class="accordion">
+                <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
+                Premier Site
+            </button>
             <div class="panel">
                 <a> <img src="img/ProjetOhMyCode/premierSite_1.png" alt="ohmycode" class="img-vitrine">
                 </a>
@@ -66,7 +75,10 @@
             </div>
         </div>
         <div class="projet">
-            <button class="accordion">Nonogramme</button>
+            <button class="accordion">
+                <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
+                Nonogramme
+            </button>
             <div class="panel">
                 <a> <img src="img/ProjetNonogramme/nonogramme_accueil.png" alt="nonogramme" class="img-vitrine">
                 </a>
@@ -80,7 +92,10 @@
             </div>
         </div>
         <div class="projet">
-            <button class="accordion">Éditeur de livre</button>
+            <button class="accordion">
+                <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
+                Éditeur de livre
+            </button>
             <div class="panel">
                 <a> <img src="img/ProjetLivre/Capture.png" alt="livre" class="img-vitrine">
                 </a>
@@ -94,7 +109,10 @@
             </div>
         </div>
         <div class="projet">
-            <button class="accordion">Candy Crush</button>
+            <button class="accordion">
+                <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
+                Candy Crush
+            </button>
             <div class="panel">
                 <a> <img src="img/ProjetCandyCrush/debutJeu.png" alt="Candy" class="img-vitrine">
                 </a>
@@ -105,7 +123,10 @@
             </div>
         </div>
         <div class="projet">
-            <button class="accordion">Tic Tac Toe</button>
+            <button class="accordion">
+                <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
+                Tic Tac Toe
+            </button>
             <div class="panel">
                 <a> <img src="img/ProjetTicTacToe/T.png" alt="tictactoe" class="img-vitrine">
                 </a>
@@ -117,7 +138,10 @@
             </div>
         </div>
         <div class="projet">
-            <button class="accordion">Tracks IUT</button>
+            <button class="accordion">
+                <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
+                Tracks IUT
+            </button>
             <div class="panel">
                 <a> <img src="img/ProjetTracksIUT/web.png" alt="Tracks" class="img-vitrine">
                 </a>
@@ -136,26 +160,34 @@
                 </p>
             </div>
         </div>
-<!--        <div class="projet">-->
-<!--            <button class="accordion">Blog sur spider-man</button>-->
-<!--            <div class="panel">-->
-<!--                <a> <img src="img/AVenir.avif" alt="#" class="img-vitrine">-->
-<!--                </a>-->
-<!--                <p> J'ai réalisé ce projet dans le cadre de mon cours de programmation web ou j'ai appris à utiliser le-->
-<!--                    langage PHP.-->
-<!--                    J'ai mis en place différente fonctionnalité telles que<br>-->
-<!--                    - création de compte<br>-->
-<!--                    - Se connecter<br>-->
-<!--                    - Voir dernier article ajouter.</p>-->
-<!--            </div>-->
-<!--        </div>-->
+                <div class="projet">
+                    <button class="accordion">
+                        <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
+                        Blog sur spider-man
+                    </button>
+                    <div class="panel">
+                        <a> <img src="img/ProjetBlogSpider/accueil.png" alt="#" class="img-vitrine">
+                        </a>
+                        <p> J'ai réalisé ce projet dans le cadre de mon cours de programmation web ou j'ai appris à utiliser le
+                            langage PHP.
+                            J'ai mis en place différente fonctionnalité telles que<br>
+                            - création de compte<br>
+                            - Se connecter<br>
+                            - Voir dernier article ajouter.</p>
+                    </div>
+                </div>
         <div class="projet">
-            <button class="accordion">Recette de cuisine</button>
+            <button class="accordion">
+                <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
+                Recette de cuisine
+            </button>
             <div class="panel">
                 <a> <img src="img/ProjetRecipies/accueil.png" alt="#" class="img-vitrine">
                 </a>
                 <p>
-                    L’objectif de ce projet de développer une plateforme web permettant d'ajouter, consulter et utiliser des recettes de cuisine, avec une fonctionnalité générant automatiquement une liste de courses personnalisée.
+                    L’objectif de ce projet de développer une plateforme web permettant d'ajouter, consulter et utiliser
+                    des recettes de cuisine, avec une fonctionnalité générant automatiquement une liste de courses
+                    personnalisée.
                     <br>
                     Technologies utilisées :<br>
                     cakePhp
