@@ -308,145 +308,21 @@ svg circle {
     stroke-linecap: round;
 }
 
+
 svg circle:nth-child(1) {
     stroke: #cecece;
+    fill: none;
     stroke-dashoffset: 0;
 }
 
 svg circle:nth-child(2) {
-    animation: circle 2s forwards;
+    stroke: #412678;
+    stroke-width: 10px;
+    fill: none;
+    stroke-linecap: round;
 }
 
-.p75 svg circle {
-    animation-name: pp75;
-}
-
-.p75 svg circle:nth-child(1) {
-    animation-name: pp75;
-}
-
-.p75 svg circle:nth-child(2) {
-    animation-name: pp75;
-}
-
-
-.p70 svg circle {
-    animation-name: pp70;
-}
-
-.p70 svg circle:nth-child(1) {
-    animation-name: pp70;
-}
-
-.p70 svg circle:nth-child(2) {
-    animation-name: pp70;
-}
-
-.p50 svg circle {
-    animation-name: pp50;
-}
-
-.p50 svg circle:nth-child(1) {
-    animation-name: pp50;
-}
-
-.p50 svg circle:nth-child(2) {
-    animation-name: pp50;
-}
-
-.p0 svg circle {
-    animation-name: pp0;
-}
-
-.p0 svg circle:nth-child(1) {
-    animation-name: pp0;
-}
-
-.p0 svg circle:nth-child(2) {
-    animation-name: pp0;
-}
-
-.p90 svg circle {
-    animation-name: pp90;
-}
-
-.p90 svg circle:nth-child(1) {
-    animation-name: pp90;
-}
-
-.p90 svg circle:nth-child(2) {
-    animation-name: pp90;
-}
-
-.p85 svg circle {
-    animation-name: pp85;
-}
-
-.p85 svg circle:nth-child(1) {
-    animation-name: pp85;
-}
-
-.p85 svg circle:nth-child(2) {
-    animation-name: pp85;
-}
-
-.p30 svg circle {
-    animation-name: pp30;
-}
-
-.p30 svg circle:nth-child(1) {
-    animation-name: pp30;
-}
-
-.p30 svg circle:nth-child(2) {
-    animation-name: pp30;
-}
-
-
-
-@keyframes pp75 {
-    to {
-        stroke-dashoffset: 78.75;
-    }
-}
-
-@keyframes pp70 {
-    to {
-        stroke-dashoffset: 95.75;
-    }
-}
-
-@keyframes pp50 {
-    to {
-        stroke-dashoffset: 157.5;
-    }
-}
-
-@keyframes pp0 {
-    to {
-        stroke-dashoffset: 315;
-    }
-}
-
-@keyframes pp90 {
-    to {
-        stroke-dashoffset: 31.5;
-    }
-}
-
-@keyframes pp85 {
-    to {
-        stroke-dashoffset: 47.25;
-    }
-}
-
-@keyframes pp30 {
-    to {
-        stroke-dashoffset: 220.5;
-    }
-}
-
-#Languages,
+.Languages,
 #Bureautique,
 #Système {
     display: flex;

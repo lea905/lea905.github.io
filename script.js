@@ -12,6 +12,7 @@ function toggleMenu() {
     document.getElementById("menu").classList.toggle("active");
 }
 
+/*Accordéon*/
 document.addEventListener("DOMContentLoaded", function() {
     // Récupérer tous les boutons d'accordéon
     const accordions = document.querySelectorAll(".accordion");
@@ -27,4 +28,25 @@ document.addEventListener("DOMContentLoaded", function() {
             panel.classList.toggle("show");
         });
     });
+});
+
+/*Cercle compétence*/
+const circles = document.querySelectorAll("svg circle:nth-child(2)");
+
+circles.forEach(circle => {
+    const parent = circle.closest(".competence");
+    if (!parent) return;
+
+    const pourcentage = parseInt(parent.dataset.pourcentage);
+    const rayon = 50;
+    const totalLength = 2 * Math.PI * rayon;
+    const offset = totalLength * (1 - (pourcentage / 100));
+
+    circle.style.strokeDasharray = totalLength;
+    circle.style.strokeDashoffset = totalLength;
+    circle.style.animation = "none";
+    setTimeout(() => {
+        circle.style.transition = "stroke-dashoffset 2s";
+        circle.style.strokeDashoffset = offset;
+    }, 100);
 });
