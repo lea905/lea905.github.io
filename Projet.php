@@ -22,8 +22,8 @@
     <div class="gallery">
         <div class="projet">
             <button class="accordion">
-                <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
                 Galerie d'art
+                <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
             </button>
             <div class="panel">
                 <a>
@@ -40,8 +40,8 @@
         </div>
         <div class="projet">
             <button class="accordion">
-                <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
                 Quiz
+                <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
             </button>
             <div class="panel">
                 <a>
@@ -62,8 +62,8 @@
         </div>
         <div class="projet">
             <button class="accordion">
-                <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
                 Premier Site
+                <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
             </button>
             <div class="panel">
                 <a> <img src="img/ProjetOhMyCode/premierSite_1.png" alt="ohmycode" class="img-vitrine">
@@ -76,8 +76,8 @@
         </div>
         <div class="projet">
             <button class="accordion">
-                <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
                 Nonogramme
+                <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
             </button>
             <div class="panel">
                 <a> <img src="img/ProjetNonogramme/nonogramme_accueil.png" alt="nonogramme" class="img-vitrine">
@@ -93,8 +93,8 @@
         </div>
         <div class="projet">
             <button class="accordion">
-                <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
                 Éditeur de livre
+                <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
             </button>
             <div class="panel">
                 <a> <img src="img/ProjetLivre/Capture.png" alt="livre" class="img-vitrine">
@@ -110,8 +110,8 @@
         </div>
         <div class="projet">
             <button class="accordion">
-                <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
                 Candy Crush
+                <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
             </button>
             <div class="panel">
                 <a> <img src="img/ProjetCandyCrush/debutJeu.png" alt="Candy" class="img-vitrine">
@@ -124,8 +124,8 @@
         </div>
         <div class="projet">
             <button class="accordion">
-                <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
                 Tic Tac Toe
+                <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
             </button>
             <div class="panel">
                 <a> <img src="img/ProjetTicTacToe/T.png" alt="tictactoe" class="img-vitrine">
@@ -139,8 +139,8 @@
         </div>
         <div class="projet">
             <button class="accordion">
-                <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
                 Tracks IUT
+                <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
             </button>
             <div class="panel">
                 <a> <img src="img/ProjetTracksIUT/web.png" alt="Tracks" class="img-vitrine">
@@ -162,8 +162,8 @@
         </div>
         <div class="projet">
             <button class="accordion">
-                <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
                 Blog sur spider-man
+                <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
             </button>
             <div class="panel">
                 <a> <img src="img/ProjetBlogSpider/accueil.png" alt="#" class="img-vitrine">
@@ -178,8 +178,8 @@
         </div>
         <div class="projet">
             <button class="accordion">
-                <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
                 Recette de cuisine
+                <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
             </button>
             <div class="panel">
                 <a> <img src="img/ProjetRecipies/accueil.png" alt="#" class="img-vitrine">
@@ -201,8 +201,8 @@
 
         <div class="projet">
             <button class="accordion">
+               Liste de Restaurant
                 <img src="img/fleche-droite.png" alt="flèche" class="arrow-icon">
-                Liste de Restaurant
             </button>
             <div class="panel">
                 <a> <img src="img/ProjetRestaurant/list.jpg" alt="#" class="img-vitrine">

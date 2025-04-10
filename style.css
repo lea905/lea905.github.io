@@ -380,7 +380,8 @@ svg circle:nth-child(2) {
     transition: background-color 0.3s ease;
     border-radius: 10px;
     margin-bottom: 10px;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto; /* Centrer horizontalement */
     position: relative;
